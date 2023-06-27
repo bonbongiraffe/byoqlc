@@ -17,7 +17,7 @@ function Login({ setCurrentUser }){
         fetch("http://localhost:3000/users", {
             method: "POST",
             headers: {"Content-Type" : "application/json"},
-            body: JSON.stringify ({...formData, wallet: formData.crisis*1000, submitted: false, qlc: []})
+            body: JSON.stringify ({...formData, wallet: formData.crisis*1000, location:"NYC", submitted: false, activities: []})
         })
             .then( r => r.json())
             .then( newUser=> setCurrentUser(newUser))

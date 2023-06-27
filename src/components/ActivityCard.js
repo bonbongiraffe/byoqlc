@@ -1,11 +1,15 @@
 import React from "react";
 
-function ActivityCard({ description, image, cost }) {
+function ActivityCard({ activity, addActivity }) {
+    const handleClick = () => {
+        addActivity(activity)
+    }
+
     return (
-        <div className="activity-card">
-            <h3>{description}</h3>
-            <img src={image} alt={description}/>
-            <h4>${cost}</h4>
+        <div onClick={handleClick} className="activity-card">
+            <h3>{activity.description}</h3>
+            <img src={activity.image} alt={activity.description}/>
+            <h4>${activity.cost}</h4>
         </div>
     )
 }
