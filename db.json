@@ -81,10 +81,11 @@
       "id": 1,
       "name": "Mr. Test",
       "crisis": 10,
-      "wallet": 9250,
+      "wallet": 550,
       "location": "NYC",
       "submitted": false,
-      "activities": []
+      "activities": [
+      ]
     }
   ]
 }
