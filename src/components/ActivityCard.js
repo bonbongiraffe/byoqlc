@@ -1,11 +1,11 @@
 import React from "react";
 
-function ActivityCard({ description, image, price }) {
+function ActivityCard({ description, image, cost }) {
     return (
         <div className="activity-card">
-            <h1>{description}</h1>
+            <h3>{description}</h3>
             <img src={image} alt={description}/>
-            <h1>${price}</h1>
+            <h4>${cost}</h4>
         </div>
     )
 }

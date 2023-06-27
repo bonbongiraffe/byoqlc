@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.activities-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.activity-card {
+  margin: 1rem;
+  text-align: center;
+  border: solid black;
+}
+
+.activity-card img {
+  width: 100%;
+}
+
+@media (min-width: 2048px) {
+  .activity-card {
+    width: calc(25% - 2rem);
+  }
+}
+
+datalist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: vertical-lr;
+  width: 200px;
+}
+
+option {
+  padding: 0;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin: 0;
+}
+
