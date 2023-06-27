@@ -5,7 +5,11 @@ import { useState, useEffect } from "react";
 //components
 import Nav from "./Nav";
 import Activities from "./Activities";
+<<<<<<< HEAD
 import Login from "./Login"
+=======
+import Login from "./Login";
+>>>>>>> master
 
 const url =  "http://localhost:3000/activities"
 
@@ -22,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
       {currentUser ? (
       <>
         <Nav/>
@@ -32,6 +37,14 @@ function App() {
         </Switch>
       </>      
       ) : <Login setCurrentUser={setCurrentUser}/> } 
+=======
+        <Login />
+      <Switch>
+        <Route path="/activities">
+          <Activities activities={activities}/>
+        </Route>
+      </Switch>
+>>>>>>> master
       </header>
     </div>
   );

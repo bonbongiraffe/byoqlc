@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React  from "react";
 import { NavLink } from "react-router-dom"; 
 
@@ -15,5 +16,14 @@ function Nav() {
         </nav>
     )
 }
+=======
+import React from 'react';
+
+function Nav(){
+    return (
+        
+    )
+};
+>>>>>>> master
 
 export default Nav;
