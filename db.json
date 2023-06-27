@@ -78,12 +78,13 @@
   },
   "users": [
     {
-        "id": 1,
-        "name": "Mr. Test",
-        "crisis": 10,
-        "wallet": 10000,
-        "submitted": false,
-        "qlc": []
+      "id": 1,
+      "name": "Mr. Test",
+      "crisis": 10,
+      "wallet": 9250,
+      "location": "NYC",
+      "submitted": false,
+      "activities": []
     }
   ]
 }

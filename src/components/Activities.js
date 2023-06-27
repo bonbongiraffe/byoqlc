@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import ActivityCard from "./ActivityCard"
 
-function Activities({ activities }) {
-    const [ location, setLocation ] = useState("NYC") 
+function Activities({ location, activities, addActivity }) {
 
     const currentActivities = activities[location] ? activities[location] : []
-    // console.log(currentActivities)
     const renderedActivites = currentActivities.map((activity) => 
-        <ActivityCard key={activity.id} activity={activity}/>)
+        <ActivityCard key={activity.id} activity={activity} addActivity={addActivity}/>)
 
     return (
-        <div className="activities-container">
-            {renderedActivites}
-        </div>
+        <>
+            <h2>Welcome to {location}!</h2>
+            <div className="activities-container">
+                {renderedActivites}
+            </div>
+        </>
     )
 }
 
