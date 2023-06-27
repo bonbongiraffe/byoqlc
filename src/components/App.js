@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import { useState, useEffect } from "react"; 
 // import './App.css';
 import Activities from "./Activities";
+import Login from "./Login";
 
 const url =  "http://localhost:3000/activities"
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Login />
       <Switch>
         <Route path="/activities">
           <Activities activities={activities}/>
