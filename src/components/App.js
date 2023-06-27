@@ -5,31 +5,33 @@ import { useState, useEffect } from "react";
 //components
 import Nav from "./Nav";
 import Activities from "./Activities";
-<<<<<<< HEAD
-import Login from "./Login"
-=======
 import Login from "./Login";
->>>>>>> master
 
-const url =  "http://localhost:3000/activities"
+const url =  "http://localhost:3000"
 
 function App() {
   const [ activities, setActivities ] = useState({})
   const [ currentUser, setCurrentUser ] = useState({})
 
   useEffect(()=>{
-    fetch(url)
+    fetch(`${url}/activities`)
       .then(r => r.json())
       .then(activitiesObj => setActivities(activitiesObj))
+  },[])
+
+  useEffect(()=>{
+    fetch(`${url}/users`)
+      .then(r => r.json())
+      .then(users => setCurrentUser(
+        users.find(user => user.submitted === false) ? users.find(user => user.submitted === false) : {}))
   },[])
 
   return (
     <div className="App">
       <header className="App-header">
-<<<<<<< HEAD
-      {currentUser ? (
+      {currentUser.name ? (
       <>
-        <Nav/>
+        <Nav user={currentUser}/>
         <Switch>
           <Route path="/activities">
             <Activities activities={activities}/>
@@ -37,14 +39,6 @@ function App() {
         </Switch>
       </>      
       ) : <Login setCurrentUser={setCurrentUser}/> } 
-=======
-        <Login />
-      <Switch>
-        <Route path="/activities">
-          <Activities activities={activities}/>
-        </Route>
-      </Switch>
->>>>>>> master
       </header>
     </div>
   );
