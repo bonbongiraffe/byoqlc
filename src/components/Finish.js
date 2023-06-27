@@ -1,6 +1,6 @@
 import React from "react"
 
-function Finish({ user, activities }){
+function Finish({ user, activities, handleRestart }){
     const renderedActivities = activities.map(activity => 
         <li key={activity.id}>{activity.description}</li>
     )
@@ -12,6 +12,7 @@ function Finish({ user, activities }){
                 {renderedActivities}
                 <li>With ${user.wallet} remaining!</li>
             </ul>
+            <button onClick={() => handleRestart()}>New Quarter Life Crisis!</button>
         </div>
     )
 }

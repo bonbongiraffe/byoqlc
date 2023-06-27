@@ -31,7 +31,7 @@ function App() {
     fetch(`${url}/users`)
       .then(r => r.json())
       .then(users => {
-        setUser((user => user.submitted !== true) ? users.find(user => user.submitted !== true) : {})
+        setUser(users.find(user => user.submitted !== true) ? users.find(user => user.submitted !== true) : {})
       })
   },[])
 
@@ -49,6 +49,15 @@ function App() {
     })
       .then( r => r.json())
       .then( updatedUser => setUser(updatedUser))
+  }
+
+  const handleRestart = () => {
+    setGameState(0)
+    fetch(`${url}/users/${user.id}`,{
+      method: "PATCH",
+      headers: { "Content-Type" : "application/json" },
+      body: JSON.stringify({ submitted: true })
+    })
   }
 
   const addActivity = (activity) => {
@@ -83,7 +92,7 @@ function App() {
             <Cart activities={user.activities}></Cart>
           </Route>
           <Route path="/finish">
-            <Finish user={user} activities={user.activities}></Finish>
+            <Finish user={user} activities={user.activities} handleRestart={handleRestart}></Finish>
           </Route>
         </Switch>
       </>      
