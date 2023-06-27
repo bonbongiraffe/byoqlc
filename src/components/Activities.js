@@ -5,7 +5,8 @@ function Activities({ location, activities, addActivity }) {
 
     const currentActivities = activities[location] ? activities[location] : []
     const renderedActivites = currentActivities.map((activity) => 
-        <ActivityCard key={activity.id} activity={activity} addActivity={addActivity}/>)
+        <ActivityCard key={activity.id} activity={activity} addActivity={addActivity}/>
+    )
 
     return (
         <>
