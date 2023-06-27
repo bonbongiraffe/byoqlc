@@ -7,7 +7,7 @@ function Activities({ activities }) {
     const currentActivities = activities[location] ? activities[location] : []
     // console.log(currentActivities)
     const renderedActivites = currentActivities.map((activity) => 
-        <ActivityCard key={activity.id} {...activity}/>)
+        <ActivityCard key={activity.id} activity={activity}/>)
 
     return (
         <div className="activities-container">
