@@ -1,0 +1,91 @@
+{
+    "activities": {
+        "NYC":[
+            {
+                "id": 1,
+                "description": "Fly to Chicago",
+                "destination": "Chicago",
+                "image": "asdf",
+                "cost": 0
+            },
+            {
+                "id": 2,
+                "description": "Fly to Miami",
+                "destination": "Miami",
+                "image": "asdf",
+                "cost": 0
+            },
+            {
+                "id": 3,
+                "description": "Fly to Boston",
+                "destination": "Boston",
+                "image": "asdf",
+                "cost": 0
+            },
+            {
+                "id": 4,
+                "description": "Five-course Meal at the Empire State Building",
+                "destination": "NYC",
+                "image": "asdf",
+                "cost": 0
+            },
+            {
+                "id": 5,
+                "description": "Take photos with every character in Times Square",
+                "destination": "NYC",
+                "image": "asdf",
+                "cost": 0
+            },
+            {
+                "id": 6,
+                "description": "See a Broadway Show",
+                "destination": "NYC",
+                "image": "asdf",
+                "cost": 0
+            },
+            {
+                "id": 7,
+                "description": "Smoke your first legal joint",
+                "destination": "NYC",
+                "image": "asdf",
+                "cost": 0
+            },
+            {
+                "id": 8,
+                "description": "See the Statue of Liberty",
+                "destination": "NYC",
+                "image": "asdf",
+                "cost": 0
+            },
+            {
+                "id": 9,
+                "description": "Go clubbing",
+                "destination": "NYC",
+                "image": "asdf",
+                "cost": 0
+            }
+        ],
+        "Chicago":[],
+        "Miami":[],
+        "Boston":[],
+        "Denver":[],
+        "Las Vegas":[],
+        "Saint Louis":[],
+        "New Orleans":[],
+        "Nashville":[],
+        "Charlotte":[],
+        "Acadia":[]
+    },
+
+    "users": [
+        {
+            "id": 1,
+            "name": "Mr. Test",
+            "crisis": 10,
+            "wallet": 10000,
+            "submitted": false,
+            "qlc": []
+        }
+    ]
+
+}
