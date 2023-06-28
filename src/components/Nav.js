@@ -1,32 +1,37 @@
 import React  from "react";
-import { NavLink } from "react-router-dom"; 
+import { NavLink, useHistory } from "react-router-dom"; 
 
-function Nav({ user, gameState, handleFinish }) {
+function Nav({ user, handleFinish }) {
+    const history = useHistory() 
+
     const handleClick = () => {
-        handleFinish()
+        handleFinish();
+        history.push("/cart");
     }
 
     return(
         <nav>
             <h4>{user.name}</h4>
-            {gameState ? null: (<h4>${user.wallet}</h4>)}
-            {gameState ? null: (<button onClick={handleClick}>Finish Quarter Life Crisis</button>)}
+            {(user.submitted===false) ? (<h4>${user.wallet}</h4>) : null }
+            {(user.submitted===false) ? (<button onClick={handleClick}>Finish Quarter Life Crisis</button>) : null }
             <ul>
-                {gameState ? (                 
+                {(user.submitted===false) ? (
+                    <React.Fragment>
+                        <li>
+                            <NavLink to="/activities">QLC Activities</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/cart">QLC Cart</NavLink>
+                        </li>
+                    </React.Fragment>
+                ) : null
+                }
+                {(user.submitted===0) ? (
                 <li>
                     <NavLink to="/finish">Finish QLC</NavLink>
                 </li>
-                ) : (
-                <React.Fragment>
-                <li>
-                    <NavLink to="/activities">QLC Activities</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/cart">QLC Cart</NavLink>
-                </li>
-                </React.Fragment>
-                )}
-
+                ) : null
+                }
             </ul>
         </nav>
     )

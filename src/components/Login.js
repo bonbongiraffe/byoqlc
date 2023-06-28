@@ -1,7 +1,8 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 function Login({ setUser }){
+    const history = useHistory();
     const [formData, setFormData]= useState ({name: "", crisis: 10})
 
     function handleName (e) { 
@@ -21,7 +22,7 @@ function Login({ setUser }){
         })
             .then( r => r.json())
             .then( newUser=> setUser(newUser))
-
+        history.push("/activities")
     }
     return (
         <div>
