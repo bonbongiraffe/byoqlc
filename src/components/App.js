@@ -15,10 +15,6 @@ function App() {
   const history = useHistory()
   const [ activities, setActivities ] = useState({})
   const [ user, setUser ] = useState({})
-  //gameState 
-  // 0: current user, not submitted
-  // 1: current user, submitted
-  //const [ gameState, setGameState ] = useState(0)
 
   //fetch activities
   useEffect(()=>{
@@ -37,15 +33,8 @@ function App() {
       })
   },[])
 
-  //add-on to initial fetch ^ above, checks if user has submitted their entry
-  // const checkGameState = (user) => {
-  //   if (user.submitted !== false)
-  //     setGameState(1)
-  // }
-
-  //d
+  //
   const handleFinish = () => {
-    //setGameState(1)
     fetch(`${url}/users/${user.id}`,{
       method: "PATCH",
       headers: { "Content-Type" : "application/json" },
@@ -56,7 +45,6 @@ function App() {
   }
 
   const handleRestart = () => {
-    //setGameState(0)
     fetch(`${url}/users/${user.id}`,{
       method: "PATCH",
       headers: { "Content-Type" : "application/json" },
@@ -86,39 +74,22 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header">BYOQLC</header>
       <Nav user={user} handleFinish={handleFinish}/> 
-        <Switch>
-          <Route path="/activities">
-            <Activities location={user.location} activities={activities} addActivity={addActivity}/>
-          </Route>
-          <Route path="/cart">
-            <Cart activities={user.activities}></Cart>
-          </Route>
-          <Route path="/finish">
-            <Finish user={user} activities={user.activities} handleRestart={handleRestart}></Finish>
-          </Route>
-          <Route path="/login">
-            <Login setUser={setUser}/>
-          </Route>
-        </Switch>
-      {/* {user.name ? (
-      <>
-        <Nav user={user} handleFinish={handleFinish}/> 
-        <Switch>
-          <Route path="/activities">
-            <Activities location={user.location} activities={activities} addActivity={addActivity}/>
-          </Route>
-          <Route path="/cart">
-            <Cart activities={user.activities}></Cart>
-          </Route>
-          <Route path="/finish">
-            <Finish user={user} activities={user.activities} handleRestart={handleRestart}></Finish>
-          </Route>
-        </Switch>
-      </>      
-      ) : <Login setUser={setUser}/> }  */}
-      </header>
+      <Switch>
+        <Route path="/activities">
+          <Activities location={user.location} activities={activities} addActivity={addActivity}/>
+        </Route>
+        <Route path="/cart">
+          <Cart activities={user.activities}></Cart>
+        </Route>
+        <Route path="/finish">
+          <Finish user={user} activities={user.activities} handleRestart={handleRestart}></Finish>
+        </Route>
+        <Route path="/login">
+          <Login setUser={setUser}/>
+        </Route>
+      </Switch>
     </div>
   );
 }
