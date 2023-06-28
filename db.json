@@ -225,6 +225,30 @@
         }
       ],
       "id": 3
+    },
+    {
+      "name": "Mr.Test",
+      "crisis": 10,
+      "wallet": 9800,
+      "location": "NYC",
+      "submitted": false,
+      "activities": [
+        {
+          "id": 1,
+          "description": "Take photos with every character in Times Square",
+          "destination": "NYC",
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
+          "cost": 100
+        },
+        {
+          "id": 2,
+          "description": "Take photos with every character in Times Square",
+          "destination": "NYC",
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
+          "cost": 100
+        }
+      ],
+      "id": 4
     }
   ]
 }
