@@ -14,7 +14,7 @@ const url =  "http://localhost:3000"
 function App() {
   const history = useHistory()
   const [ activities, setActivities ] = useState({})
-  const [ user, setUser ] = useState({})
+  const [ user, setUser ] = useState({activities:[]})
 
   //fetch activities
   useEffect(()=>{
@@ -29,7 +29,6 @@ function App() {
       .then(r => r.json())
       .then(users => {
         setUser(users.find(user => user.submitted !== true) ? users.find(user => user.submitted !== true) : {})
-        //checkGameState(user)
       })
   },[])
 
@@ -72,9 +71,13 @@ function App() {
     }
   }
 
+  console.log(user)
   return (
     <div className="App">
-      <header className="App-header">BYOQLC</header>
+      <header className="title">
+        <h1>BYOQLC</h1>
+        <h3>Build Your Own Quarter Life Crisis</h3>
+      </header>
       <Nav user={user} handleFinish={handleFinish}/> 
       <Switch>
         <Route path="/activities">
