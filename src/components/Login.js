@@ -1,7 +1,8 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
-function Login({ setCurrentUser }){
+function Login({ setUser }){
+    const history = useHistory();
     const [formData, setFormData]= useState ({name: "", crisis: 10})
 
     function handleName (e) { 
@@ -20,8 +21,8 @@ function Login({ setCurrentUser }){
             body: JSON.stringify ({...formData, wallet: formData.crisis*1000, location:"NYC", submitted: false, activities: []})
         })
             .then( r => r.json())
-            .then( newUser=> setCurrentUser(newUser))
-
+            .then( newUser=> setUser(newUser))
+        history.push("/activities")
     }
     return (
         <div>
