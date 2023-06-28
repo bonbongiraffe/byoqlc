@@ -1,3 +1,91 @@
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace;
+  background: #404040;
+  color: yellow;
+  border-bottom: solid yellow;
+  border-top: solid yellow;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  font-family:'Courier New', Courier, monospace;
+  background: #404040;
+  color: yellow;
+}
+
+a {
+  color: yellow;
+}
+
+.activities-header {
+  display: flex;
+  background: yellow;
+  justify-content: center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.activities-container {
+  background: #999999;
+  font-family:'Courier New', Courier, monospace;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cart-card {
+  display: flex;
+  gap: 30px;
+  background-color: yellow;
+  border: dashed #808080
+}
+
+.cart-card img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.login {
+  font-family:'Courier New', Courier, monospace;
+  line-height: 30px;
+  background: #808080;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 25em;
+}
+
+.login label {
+  display: block;
+}
+
+.login button {
+  display: block;
+}
+
+input[type="range"] {
+  background-color: red;
+  height: 30px;
+}
+
+.finish {
+  background: #808080;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.finish h1 {
+  background: yellow;
+  text-align: center;
+}
+
+.finish-card {
+  border: dashed yellow;
+  display: flex;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,19 +100,16 @@ code {
     monospace;
 }
 
-.activities-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 .activity-card {
   margin: 1rem;
   text-align: center;
   border: solid black;
+  background: yellow;
 }
 
 .activity-card img {
-  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 @media (min-width: 2048px) {
@@ -33,13 +118,13 @@ code {
   }
 }
 
-datalist {
+/* datalist {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   writing-mode: vertical-lr;
   width: 200px;
-}
+} */
 
 option {
   padding: 0;

@@ -15,8 +15,10 @@ function Activities({ location, activities, addActivity }) {
 
     return (
         <>
-            <h2>Welcome to {location}!</h2>
-            <Search search = {search} setSearch = {setSearch}/>
+            <div className="activities-header">
+                <h2>Welcome to {location}!</h2>
+                <Search search = {search} setSearch = {setSearch}/>
+            </div>
             <div className="activities-container">
                 {renderedActivites}
             </div>

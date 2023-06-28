@@ -17,15 +17,17 @@ function Finish({ user, activities, handleRestart }){
     const renderedUsers = users.map(user => <FinishCard key={user.id} {...user}/>)
 
     return(
-        <div>
+        <div className="finish">
             <h1>{user.name}'s Quarter Life Crisis</h1>
-            <ul>
+            <ul className="user-finish">
                 {renderedActivities}
                 <li>With ${user.wallet} remaining!</li>
             </ul>
             <button onClick={() => handleRestart()}>New Quarter Life Crisis!</button>
             <h1>Other Users' Quarter Life Crises</h1>
+            <div className="other-qlc">
                 {renderedUsers}
+            </div>
         </div>
     )
 }
