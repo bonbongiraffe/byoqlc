@@ -15,7 +15,7 @@ function Cart({ activities }){
     const renderedActivities = activities.map(activity => <Card key={activity.id} activity={activity}/>)
 
     return(
-        <div>
+        <div className="cart">
             {renderedActivities}
         </div>
     )

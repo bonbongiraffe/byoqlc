@@ -11,9 +11,10 @@ function Nav({ user, handleFinish }) {
 
     return(
         <nav>
-            <h4>{user.name}</h4>
-            {(user.submitted===false) ? (<h4>${user.wallet}</h4>) : null }
-            {(user.submitted===false) ? (<button onClick={handleClick}>Finish Quarter Life Crisis</button>) : null }
+            <div>
+                <h2>{user.name}</h2>
+                {(user.submitted===false) ? (<h3>${user.wallet}</h3>) : null }
+            </div>
             <ul>
                 {(user.submitted===false) ? (
                     <React.Fragment>
@@ -33,6 +34,7 @@ function Nav({ user, handleFinish }) {
                 ) : null
                 }
             </ul>
+            {(user.submitted===false) ? (<button onClick={handleClick}>Finish Quarter Life Crisis</button>) : null }
         </nav>
     )
 }
