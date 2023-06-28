@@ -16,7 +16,7 @@ nav {
   color: yellow;
 }
 
-.nav a {
+a {
   color: yellow;
 }
 
@@ -49,12 +49,13 @@ nav {
 .login {
   font-family:'Courier New', Courier, monospace;
   line-height: 30px;
-  background: white;
+  background: #808080;
+  color: yellow;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: dashed #202020;
+  height: 25em;
 }
 
 .login label {
@@ -68,6 +69,21 @@ nav {
 input[type="range"] {
   background-color: red;
   height: 30px;
+}
+
+.finish {
+  background: #808080;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.finish h1 {
+  background: yellow;
+  text-align: center;
+}
+
+.finish-card {
+  border: dashed yellow;
+  display: flex;
 }
 
 body {

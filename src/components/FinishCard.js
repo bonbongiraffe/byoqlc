@@ -5,8 +5,10 @@ function FinishCard({ name, crisis, wallet, activities }){
 
     return(
         <div className="finish-card">
-            <h3>{name}</h3>
-            <h4>Level {crisis} Crisis</h4>
+            <div className="user-info">
+                <h3>{name}</h3>
+                <h4>Level {crisis} Crisis</h4>
+            </div>
             <ul>
                 {renderedActivities}
                 <li>with ${wallet} remaining</li>
