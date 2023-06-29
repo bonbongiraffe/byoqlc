@@ -131,7 +131,71 @@
       }
     ],
     "Miami": [],
-    "Boston": [],
+    "Boston": [
+      {
+        "id": 1,
+        "description": "Fly to NYC",
+        "destination": "NYC",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.stgeorgeutah.com%2Fwp-content%2Fuploads%2F2018%2F05%2FNew-York-City-Getty-STGnews.jpg&f=1&nofb=1&ipt=36ab59b45e0ebb0b77020471ecaa94189fd805bf11624589b4cdc9ac226da046&ipo=images",
+        "cost": 150
+      },
+      {
+        "id": 2,
+        "description": "Fly to Acadia",
+        "destination": "Acadia",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fthepointsguy.com%2Fwp-content%2Fuploads%2F2020%2F07%2FGettyImages-900487012.jpg%3Ffit%3D2121%252C1414px%26quality%3D60%26ssl%3D1&f=1&nofb=1&ipt=ce7bb02fc818104b49d985bc448a8f58d135285b349ed2d780161f24128c7c07&ipo=images",
+        "cost": 100
+      },
+      {
+        "id": 3,
+        "description": "Fly to Denver",
+        "destination": "Denver",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fa.travel-assets.com%2Ffindyours-php%2Fviewfinder%2Fimages%2Fres70%2F190000%2F190792-Denver.jpg&f=1&nofb=1&ipt=b95c6b94841bf0e2c30098190fe9674e0ac1096ce6f703a99f3dcea91ca8561d&ipo=images",
+        "cost": 200
+      },
+      {
+        "id": 4,
+        "description": "Eat 10 Lobster Rolls",
+        "destination": "Boston",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.williams-sonoma.com%2Fwp-content%2Fuploads%2F2015%2F06%2FJULY-5_LobsterRoll.jpg&f=1&nofb=1&ipt=e6993da8ce575362c533611a2d7bb697f7142795cdc6dcd34138f135f0540101&ipo=images",
+        "cost": 300
+      },
+      {
+        "id": 5,
+        "description": "Go to 10 college tours to relive the good days",
+        "destination": "Boston",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bostonherald.com%2Fwp-content%2Fuploads%2F2021%2F06%2FNORTHEASTERNas002.jpg%3Fw%3D491&f=1&nofb=1&ipt=8f296d4f5579b3008fce3d24215cfea99f1964dff5ed07dd763dac3bcee062c8&ipo=images",
+        "cost": 50
+      },
+      {
+        "id": 6,
+        "description": "Go to a baseball game at Fenway park",
+        "destination": "Boston",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fdiamond-citys-real-life-counter-part-is-fenway-park-a-v0-ffahwzuqof8b1.png%3Fs%3D41ad3ca575e75ad118145c91ae0f4bd4a18c9dd8&f=1&nofb=1&ipt=4a2a869ca58031de3e6ef26dc7f86f095ab21e2b9d476c6d48e52284149d2e7e&ipo=images",
+        "cost": 150
+      },
+      {
+        "id": 7,
+        "description": "Attempt the Boston Marathon",
+        "destination": "Boston",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets-varnish.triblive.com%2F2020%2F10%2F3173339_web1_ptr-bostonmarathon-102920.jpg&f=1&nofb=1&ipt=75d7d331a346f075e1c11e6c7b111af5631b1f0ee338c2358d2e9cc7035d17ae&ipo=images",
+        "cost": 200
+      },
+      {
+        "id": 8,
+        "description": "Go to a frat party on Mission Hill",
+        "destination": "Boston",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthechampsyo.com%2Fwp-content%2Fuploads%2F2019%2F05%2Ffratparty.jpg&f=1&nofb=1&ipt=4caa675f88519bdb41b17c3d48fcd1baa910247a315b797a7f6e33445d4bf192&ipo=images",
+        "cost": 10
+      },
+      {
+        "id": 9,
+        "description": "Take a Witch Tour in Salem",
+        "destination": "Boston",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.thecrazytourist.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fccimage-shutterstock_1331211557.jpg&f=1&nofb=1&ipt=11fbb7bad18cceaad206d2b30c9752270c383ebdac10ac2aeb42e6948c2f98b9&ipo=images",
+        "cost": 30
+      }
+    ],
     "Denver": [],
     "Las Vegas": [],
     "Saint Louis": [],
@@ -142,18 +206,10 @@
   },
   "users": [
     {
-      "id": 1,
-      "name": "Mr. Test",
-      "crisis": 10,
-      "wallet": 10,
-      "location": "NYC",
-      "submitted": true,
-      "activities": []
-    },
-    {
-      "name": "hello world",
-      "crisis": 10,
-      "wallet": 9700,
+      "name": "Ash Ketchum",
+      "crisis": "3",
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffc08.deviantart.net%2Ffs70%2Ff%2F2014%2F091%2Fd%2Fc%2Fash_ketchum_by_mighty355-d7cjdfg.png&f=1&nofb=1&ipt=15f8c81d5adceeb663f53fd54865ff333ea3e3aded39b2354a1907d6406631a9&ipo=images",
+      "wallet": 1450,
       "location": "NYC",
       "submitted": true,
       "activities": [
@@ -173,126 +229,63 @@
         },
         {
           "id": 3,
-          "description": "Take photos with every character in Times Square",
+          "description": "Five-course Meal at the Empire State Building",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "Frankie",
-      "crisis": "10",
-      "wallet": 9300,
-      "location": "NYC",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 2,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 3,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.veaQH48nDIDK3D_CisHKAQHaEc%26pid%3DApi&f=1&ipt=def6f41c222f0381b58d65d20dc2075cfac27b4331e18c3ba990be2bbf073677&ipo=images",
+          "cost": 200
         },
         {
           "id": 4,
-          "description": "Take photos with every character in Times Square",
+          "description": "Five-course Meal at the Empire State Building",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.veaQH48nDIDK3D_CisHKAQHaEc%26pid%3DApi&f=1&ipt=def6f41c222f0381b58d65d20dc2075cfac27b4331e18c3ba990be2bbf073677&ipo=images",
+          "cost": 200
         },
         {
           "id": 5,
-          "description": "Take photos with every character in Times Square",
+          "description": "Five-course Meal at the Empire State Building",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.veaQH48nDIDK3D_CisHKAQHaEc%26pid%3DApi&f=1&ipt=def6f41c222f0381b58d65d20dc2075cfac27b4331e18c3ba990be2bbf073677&ipo=images",
+          "cost": 200
         },
         {
           "id": 6,
-          "description": "Take photos with every character in Times Square",
+          "description": "See a Broadway Show",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
+          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
+          "cost": 250
         },
         {
           "id": 7,
-          "description": "Take photos with every character in Times Square",
+          "description": "See a Broadway Show",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "Mr Test",
-      "crisis": "4",
-      "wallet": 3400,
-      "location": "NYC",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Five-course Meal at the Empire State Building",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.veaQH48nDIDK3D_CisHKAQHaEc%26pid%3DApi&f=1&ipt=def6f41c222f0381b58d65d20dc2075cfac27b4331e18c3ba990be2bbf073677&ipo=images",
-          "cost": 200
+          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
+          "cost": 250
         },
         {
-          "id": 2,
-          "description": "Five-course Meal at the Empire State Building",
+          "id": 8,
+          "description": "See a Broadway Show",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.veaQH48nDIDK3D_CisHKAQHaEc%26pid%3DApi&f=1&ipt=def6f41c222f0381b58d65d20dc2075cfac27b4331e18c3ba990be2bbf073677&ipo=images",
-          "cost": 200
-        },
-        {
-          "id": 3,
-          "description": "Five-course Meal at the Empire State Building",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.veaQH48nDIDK3D_CisHKAQHaEc%26pid%3DApi&f=1&ipt=def6f41c222f0381b58d65d20dc2075cfac27b4331e18c3ba990be2bbf073677&ipo=images",
-          "cost": 200
+          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
+          "cost": 250
         }
       ],
-      "id": 4
+      "id": 1
     },
     {
-      "name": "",
-      "crisis": 10,
-      "wallet": 10000,
-      "location": "NYC",
-      "submitted": true,
-      "activities": [],
-      "id": 5
-    },
-    {
-      "name": "Jessica",
+      "name": "bloo",
       "crisis": "6",
-      "wallet": 5385,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette2.wikia.nocookie.net%2Ffhif%2Fimages%2Fd%2Fdf%2FBloo_transparent.png%2Frevision%2Flatest%2Fscale-to-width-down%2F250%3Fcb%3D20170629105105&f=1&nofb=1&ipt=6136a64cf862a9e0296f48a1e705f1102145146a6b6955f724aa57d640023963&ipo=images",
+      "wallet": 5695,
       "location": "NYC",
       "submitted": true,
       "activities": [
         {
           "id": 1,
-          "description": "Go clubbing",
+          "description": "See the Statue of Liberty",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg2.storyblok.com%2F0x300%2Ff%2F116532%2F1620x1080%2F80417a2943%2Flavo-new-york.jpg&f=1&nofb=1&ipt=ca91543106b4ae3ebbefa7038917be184632c5c029330837ce73d069c610dc4c&ipo=images",
-          "cost": 30
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2Fg0GNbdcxiVFnhDxK6ymdATZniZU%3D%2F2278x1534%2Ffilters%3Afill(auto%2C1)%2Fusa-new-york-city-statue-of-liberty-close-up-450680-001-583311ef3df78c6f6a649e46.jpg&f=1&nofb=1&ipt=092309b859e99b80222f81970858c1dec7b552893598247d1912341f311168ec&ipo=images",
+          "cost": 20
         },
         {
           "id": 2,
@@ -303,385 +296,38 @@
         },
         {
           "id": 3,
-          "description": "Smoke your first legal joint",
+          "description": "See the Statue of Liberty",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2Fg0GNbdcxiVFnhDxK6ymdATZniZU%3D%2F2278x1534%2Ffilters%3Afill(auto%2C1)%2Fusa-new-york-city-statue-of-liberty-close-up-450680-001-583311ef3df78c6f6a649e46.jpg&f=1&nofb=1&ipt=092309b859e99b80222f81970858c1dec7b552893598247d1912341f311168ec&ipo=images",
+          "cost": 20
         },
         {
           "id": 4,
-          "description": "See a Broadway Show",
+          "description": "See the Statue of Liberty",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
-          "cost": 250
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2Fg0GNbdcxiVFnhDxK6ymdATZniZU%3D%2F2278x1534%2Ffilters%3Afill(auto%2C1)%2Fusa-new-york-city-statue-of-liberty-close-up-450680-001-583311ef3df78c6f6a649e46.jpg&f=1&nofb=1&ipt=092309b859e99b80222f81970858c1dec7b552893598247d1912341f311168ec&ipo=images",
+          "cost": 20
         },
         {
           "id": 5,
-          "description": "Take photos with every character in Times Square",
+          "description": "See the Statue of Liberty",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2Fg0GNbdcxiVFnhDxK6ymdATZniZU%3D%2F2278x1534%2Ffilters%3Afill(auto%2C1)%2Fusa-new-york-city-statue-of-liberty-close-up-450680-001-583311ef3df78c6f6a649e46.jpg&f=1&nofb=1&ipt=092309b859e99b80222f81970858c1dec7b552893598247d1912341f311168ec&ipo=images",
+          "cost": 20
         },
         {
           "id": 6,
-          "description": "Five-course Meal at the Empire State Building",
+          "description": "See the Statue of Liberty",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.veaQH48nDIDK3D_CisHKAQHaEc%26pid%3DApi&f=1&ipt=def6f41c222f0381b58d65d20dc2075cfac27b4331e18c3ba990be2bbf073677&ipo=images",
-          "cost": 200
-        }
-      ],
-      "id": 6
-    },
-    {
-      "name": "",
-      "crisis": 10,
-      "wallet": 9850,
-      "location": "Boston",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Boston",
-          "destination": "Boston",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwonderfulengineering.com%2Fwp-content%2Fuploads%2F2015%2F05%2FBoston-wallpaper-6.jpg&f=1&nofb=1&ipt=087075d74e4f7baca5815b01965b9d162e45a776f6fcfe08048cb2327687d784&ipo=images",
-          "cost": 150
-        }
-      ],
-      "id": 7
-    },
-    {
-      "name": "Mr test",
-      "crisis": 10,
-      "wallet": 9800,
-      "location": "Chicago",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Chicago",
-          "destination": "Chicago",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.moneycrashers.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fvisit-chicago-attractions-places.jpg&f=1&nofb=1&ipt=f96f9d5e29ea83b1ce8c0585084eb42af5600fc83cb2da8b3e7a11b0cdec7f36&ipo=images",
-          "cost": 200
-        }
-      ],
-      "id": 8
-    },
-    {
-      "name": "",
-      "crisis": 10,
-      "wallet": 8100,
-      "location": "NYC",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 2,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 3,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 4,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 5,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 6,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2Fg0GNbdcxiVFnhDxK6ymdATZniZU%3D%2F2278x1534%2Ffilters%3Afill(auto%2C1)%2Fusa-new-york-city-statue-of-liberty-close-up-450680-001-583311ef3df78c6f6a649e46.jpg&f=1&nofb=1&ipt=092309b859e99b80222f81970858c1dec7b552893598247d1912341f311168ec&ipo=images",
+          "cost": 20
         },
         {
           "id": 7,
-          "description": "Take photos with every character in Times Square",
+          "description": "See the Statue of Liberty",
           "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 8,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 9,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 10,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 11,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 12,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 13,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 14,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 15,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 16,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 17,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 18,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 19,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 9
-    },
-    {
-      "name": "asdf",
-      "crisis": 10,
-      "wallet": 8250,
-      "location": "NYC",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "See a Broadway Show",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
-          "cost": 250
-        },
-        {
-          "id": 2,
-          "description": "See a Broadway Show",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
-          "cost": 250
-        },
-        {
-          "id": 3,
-          "description": "See a Broadway Show",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
-          "cost": 250
-        },
-        {
-          "id": 4,
-          "description": "See a Broadway Show",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
-          "cost": 250
-        },
-        {
-          "id": 5,
-          "description": "See a Broadway Show",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
-          "cost": 250
-        },
-        {
-          "id": 6,
-          "description": "See a Broadway Show",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
-          "cost": 250
-        },
-        {
-          "id": 7,
-          "description": "See a Broadway Show",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.spothero.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fbroadway-parking.jpg&f=1&nofb=1&ipt=5eb7a0fc7f7d79f37d0ab3092bb2fd373d42a819d0735a1c15039907ecbee05e&ipo=images",
-          "cost": 250
-        }
-      ],
-      "id": 10
-    },
-    {
-      "name": "Adam",
-      "crisis": 10,
-      "wallet": 9300,
-      "location": "NYC",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 2,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 3,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 4,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 5,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 6,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 7,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 11
-    },
-    {
-      "name": "Frankie",
-      "crisis": "9",
-      "wallet": 8580,
-      "location": "NYC",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 2,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 3,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 4,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 5,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 6,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 7,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2Fg0GNbdcxiVFnhDxK6ymdATZniZU%3D%2F2278x1534%2Ffilters%3Afill(auto%2C1)%2Fusa-new-york-city-statue-of-liberty-close-up-450680-001-583311ef3df78c6f6a649e46.jpg&f=1&nofb=1&ipt=092309b859e99b80222f81970858c1dec7b552893598247d1912341f311168ec&ipo=images",
+          "cost": 20
         },
         {
           "id": 8,
@@ -759,202 +405,9 @@
           "destination": "NYC",
           "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
           "cost": 15
-        },
-        {
-          "id": 19,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 20,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 21,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 22,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 23,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 24,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 25,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 26,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 27,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
-        },
-        {
-          "id": 28,
-          "description": "Smoke your first legal joint",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarijuanaandthelaw.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fdelivery-1024x512.jpg&f=1&nofb=1&ipt=90c9471e16faa348e43bb10aff5029e3a2a90e5155cd2e6e6cfe88bd62106e7e&ipo=images",
-          "cost": 15
         }
       ],
-      "id": 12
-    },
-    {
-      "name": "asdf",
-      "crisis": 10,
-      "wallet": 10000,
-      "location": "NYC",
-      "submitted": true,
-      "activities": [],
-      "id": 13
-    },
-    {
-      "name": "boobies",
-      "crisis": "10",
-      "wallet": 9400,
-      "location": "NYC",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 2,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 3,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 4,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 5,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 6,
-          "description": "Take photos with every character in Times Square",
-          "destination": "NYC",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewyork.cbslocal.com%2Fwp-content%2Fuploads%2Fsites%2F14578484%2F2014%2F08%2F452859968.jpg%3Fw%3D1500&f=1&nofb=1&ipt=f77af8802ed2b88be6bcfaff283b32673d814568e89625c58eb1166d9836fcf3&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 14
-    },
-    {
-      "name": "Einspänner",
-      "crisis": 10,
-      "wallet": 9300,
-      "location": "Miami",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Chicago",
-          "destination": "Chicago",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.moneycrashers.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fvisit-chicago-attractions-places.jpg&f=1&nofb=1&ipt=f96f9d5e29ea83b1ce8c0585084eb42af5600fc83cb2da8b3e7a11b0cdec7f36&ipo=images",
-          "cost": 200
-        },
-        {
-          "id": 2,
-          "description": "Fly to Chicago",
-          "destination": "Chicago",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.moneycrashers.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fvisit-chicago-attractions-places.jpg&f=1&nofb=1&ipt=f96f9d5e29ea83b1ce8c0585084eb42af5600fc83cb2da8b3e7a11b0cdec7f36&ipo=images",
-          "cost": 200
-        },
-        {
-          "id": 3,
-          "description": "Fly to Chicago",
-          "destination": "Chicago",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.moneycrashers.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fvisit-chicago-attractions-places.jpg&f=1&nofb=1&ipt=f96f9d5e29ea83b1ce8c0585084eb42af5600fc83cb2da8b3e7a11b0cdec7f36&ipo=images",
-          "cost": 200
-        },
-        {
-          "id": 4,
-          "description": "Fly to Miami",
-          "destination": "Miami",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.visiteosusa.com.br%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fhero_l_x2%2Fpublic%2F2019-04%2F5a9bd91d9b08deecaa274ee97a84a0d7.jpeg%3Fitok%3DMIGpgpUN&f=1&nofb=1&ipt=3c3889da3de1344c3da2c0f32b32c43cb8b8bdae638e5a7bf2fbb6908ce40a04&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 15
-    },
-    {
-      "name": "kai",
-      "crisis": 10,
-      "wallet": 9650,
-      "location": "Boston",
-      "submitted": false,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Chicago",
-          "destination": "Chicago",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.moneycrashers.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fvisit-chicago-attractions-places.jpg&f=1&nofb=1&ipt=f96f9d5e29ea83b1ce8c0585084eb42af5600fc83cb2da8b3e7a11b0cdec7f36&ipo=images",
-          "cost": 200
-        },
-        {
-          "id": 2,
-          "description": "Fly to Boston",
-          "destination": "Boston",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwonderfulengineering.com%2Fwp-content%2Fuploads%2F2015%2F05%2FBoston-wallpaper-6.jpg&f=1&nofb=1&ipt=087075d74e4f7baca5815b01965b9d162e45a776f6fcfe08048cb2327687d784&ipo=images",
-          "cost": 150
-        }
-      ],
-      "id": 16
+      "id": 2
     }
   ]
 }

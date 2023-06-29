@@ -1,7 +1,6 @@
 import { Switch, Route, useHistory } from "react-router-dom"; 
 import { useState, useEffect } from "react"; 
 import byoqlcLogo from "./image/byoqlcLogo.png"
-// import './App.css';
 
 //components
 import Nav from "./Nav";
@@ -15,7 +14,7 @@ const url =  "http://localhost:3000"
 function App() {
   const history = useHistory()
   const [ activities, setActivities ] = useState({})
-  const [ user, setUser ] = useState({activities:[]})
+  const [ user, setUser ] = useState({activities:[], image:""})
 
   //fetch activities
   useEffect(()=>{
@@ -72,7 +71,6 @@ function App() {
     }
   }
 
-  console.log(user)
   return (
     <div className="App">
       <header className="title">
@@ -92,6 +90,10 @@ function App() {
           <Finish user={user} activities={user.activities} handleRestart={handleRestart}></Finish>
         </Route>
         <Route path="/login">
+          <Login setUser={setUser}/>
+        </Route>
+        {/* need to redirect user from home page below vv */}
+        <Route exact path="/">
           <Login setUser={setUser}/>
         </Route>
       </Switch>

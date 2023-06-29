@@ -15,6 +15,7 @@ function Nav({ user, handleFinish }) {
                 <h2>{user.name}</h2>
                 {(user.submitted===false) ? (<h3>${user.wallet}</h3>) : null }
             </div>
+            <img className="profile-picture" src={user.image}/>
             <ul>
                 {(user.submitted===false) ? (
                     <React.Fragment>

@@ -20,20 +20,32 @@
 
 nav {
   display: flex;
+  gap: 10px;
   justify-content: center;
   font-family:'Courier New', Courier, monospace;
   background: #292828;
   color: yellow;
+  align-items: center;
+}
+
+nav button{
+  height: 30px;
 }
 
 a {
   color: yellow;
 }
 
+a:hover {
+  color: red;
+}
+
 .activities-header {
   display: flex;
+  gap: 20px;
   background: yellow;
   justify-content: center;
+  align-items: center;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -42,6 +54,18 @@ a {
   font-family:'Courier New', Courier, monospace;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.flight-card {
+  display: flex;
+  gap: 30px;
+  background-color: lightblue;
+  border: dashed #808080;
+}
+
+.flight-card img {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .cart-card {
@@ -62,18 +86,22 @@ a {
   background-color: #292828;
   color: yellow;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 25em;
 }
 
-.login label {
-  display: block;
+.login form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.login button {
-  display: block;
+.login img {
+  width: 100px;
+  height: 100px;
 }
 
 input[type="range"] {
@@ -86,6 +114,13 @@ input[type="range"] {
   font-family:'Courier New', Courier, monospace;
 }
 
+.user-finish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .finish h1 {
   background: yellow;
   text-align: center;
@@ -94,6 +129,7 @@ input[type="range"] {
 .finish-card {
   border: dashed yellow;
   display: flex;
+  gap: 20px;
 }
 
 body {
@@ -116,6 +152,10 @@ code {
   text-align: center;
   border: solid black;
   background: yellow;
+}
+
+.activity-card:hover {
+  background: red;
 }
 
 .activity-card img {
@@ -146,3 +186,16 @@ input[type="range"] {
   margin: 0;
 }
 
+button {
+  background-color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.profile-picture {
+  max-width: 100px;
+  max-height: 100px;
+}
