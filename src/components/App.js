@@ -92,6 +92,10 @@ function App() {
         <Route path="/login">
           <Login setUser={setUser}/>
         </Route>
+        {/* need to redirect user from home page below vv */}
+        <Route exact path="/">
+          <Login setUser={setUser}/>
+        </Route>
       </Switch>
     </div>
   );

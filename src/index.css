@@ -52,18 +52,22 @@ a {
   background: #808080;
   color: yellow;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 25em;
 }
 
-.login label {
-  display: block;
+.login form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.login button {
-  display: block;
+.login img {
+  width: 100px;
+  height: 100px;
 }
 
 input[type="range"] {
@@ -135,3 +139,7 @@ input[type="range"] {
   margin: 0;
 }
 
+button {
+  background-color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+}

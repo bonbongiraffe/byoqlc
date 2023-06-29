@@ -24,8 +24,19 @@ function Login({ setUser }){
             .then( newUser=> setUser(newUser))
         history.push("/activities")
     }
+
+    let sirens = [];
+    for (let i = 0; i < formData.crisis ; i++)
+        sirens.push(i)
+    //console.log(sirens)
+    const sirenUrl = "https://media1.giphy.com/media/YO7P8VC7nlQlO/giphy.gif?cid=ecf05e47qt2rz4rsckpanxze8hq8g3ylc4celewlsdoqy262&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+    const sirenImages = sirens.map((i) => <img key={i} src={sirenUrl}/>)
+
     return (
         <div className="login">
+            <div className="siren-container">
+                {sirenImages}
+            </div>
             <form onSubmit= {handleSubmit}> 
                 <label htmlFor= "name"> name </label>
                     <input 
@@ -36,7 +47,7 @@ function Login({ setUser }){
                         className="input-text"
                         value={formData.name}
                     ></input>
-                <label htmlFor= "crisis level"> crisis level </label>
+                <label htmlFor= "crisis level"> crisis level: {formData.crisis}</label>
                     <input
                         onChange= {handleCrisis}
                         type="range" 
