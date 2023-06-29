@@ -2,17 +2,27 @@
   text-align: center;
   font-size: 20px;
   font-family:'Courier New', Courier, monospace;
-  background: #404040;
+  background: #292828;
   color: yellow;
-  border-bottom: solid yellow;
-  border-top: solid yellow;
+  /* border-bottom: solid yellow;
+  border-top: solid yellow; */
+}
+
+.logo-img {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: -20px;
+  width: 50%;
+  padding-top: 25px;
+  
 }
 
 nav {
   display: flex;
   justify-content: center;
   font-family:'Courier New', Courier, monospace;
-  background: #404040;
+  background: #292828;
   color: yellow;
 }
 
@@ -49,7 +59,7 @@ a {
 .login {
   font-family:'Courier New', Courier, monospace;
   line-height: 30px;
-  background: #808080;
+  background-color: #292828;
   color: yellow;
   display: flex;
   justify-content: center;
@@ -93,6 +103,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #292828;
 }
 
 code {
