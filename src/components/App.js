@@ -1,5 +1,6 @@
 import { Switch, Route, useHistory } from "react-router-dom"; 
 import { useState, useEffect } from "react"; 
+import byoqlcLogo from "./image/byoqlcLogo.png"
 // import './App.css';
 
 //components
@@ -75,8 +76,9 @@ function App() {
   return (
     <div className="App">
       <header className="title">
-        <h1>BYOQLC</h1>
-        <h3>Build Your Own Quarter Life Crisis</h3>
+        {/* <h1>BYOQLC</h1>
+        <h3>Build Your Own Quarter Life Crisis</h3> */}
+        <img className= "logo-img" src={byoqlcLogo} />
       </header>
       <Nav user={user} handleFinish={handleFinish}/> 
       <Switch>
