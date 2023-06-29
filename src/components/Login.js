@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 function Login({ setUser }){
     const history = useHistory();
-    const [formData, setFormData]= useState ({name: "", crisis: 10})
+    const [formData, setFormData]= useState ({name: "", crisis: 10, image: ""})
 
     function handleName (e) { 
         setFormData({...formData, name: e.target.value})
@@ -11,6 +11,10 @@ function Login({ setUser }){
 
     function handleCrisis (e) {
         setFormData({...formData, crisis: e.target.value})
+    }
+
+    function handleImage (e) {
+        setFormData({...formData, image: e.target.value})
     }
 
     function handleSubmit (e) {
@@ -47,6 +51,15 @@ function Login({ setUser }){
                         className="input-text"
                         value={formData.name}
                     ></input>
+                <label htmlFor= "image"> image </label>
+                    <input 
+                        onChange= {handleImage}
+                        type="text"
+                        name= "image"
+                        placeholder="Profile picture url..."
+                        className="input-text"
+                        value={formData.image}
+                    ></input>
                 <label htmlFor= "crisis level"> crisis level: {formData.crisis}</label>
                     <input
                         onChange= {handleCrisis}
@@ -58,18 +71,6 @@ function Login({ setUser }){
                         value={formData.crisis}
                         step="1"
                     ></input>
-                    {/* <datalist id="values">
-                        <option value="1" label="1"></option>
-                        <option value="2" label="2"></option>
-                        <option value="3" label="3"></option>
-                        <option value="4" label="4"></option>
-                        <option value="5" label="5"></option>
-                        <option value="6" label="6"></option>
-                        <option value="7" label="7"></option>
-                        <option value="8" label="8"></option>
-                        <option value="9" label="9"></option>
-                        <option value="10" label="10"></option>
-                    </datalist> */}
                 <button type = "submit"> Get Started!</button>
             </form>
         </div>

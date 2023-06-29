@@ -1,6 +1,5 @@
 import { Switch, Route, useHistory } from "react-router-dom"; 
 import { useState, useEffect } from "react"; 
-// import './App.css';
 
 //components
 import Nav from "./Nav";
@@ -14,7 +13,7 @@ const url =  "http://localhost:3000"
 function App() {
   const history = useHistory()
   const [ activities, setActivities ] = useState({})
-  const [ user, setUser ] = useState({activities:[]})
+  const [ user, setUser ] = useState({activities:[], image:""})
 
   //fetch activities
   useEffect(()=>{
@@ -71,7 +70,6 @@ function App() {
     }
   }
 
-  console.log(user)
   return (
     <div className="App">
       <header className="title">
