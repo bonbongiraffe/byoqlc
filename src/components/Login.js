@@ -25,7 +25,7 @@ function Login({ setUser }){
         history.push("/activities")
     }
     return (
-        <div>
+        <div className="login">
             <form onSubmit= {handleSubmit}> 
                 <label htmlFor= "name"> name </label>
                     <input 
@@ -47,7 +47,7 @@ function Login({ setUser }){
                         value={formData.crisis}
                         step="1"
                     ></input>
-                    <datalist id="values">
+                    {/* <datalist id="values">
                         <option value="1" label="1"></option>
                         <option value="2" label="2"></option>
                         <option value="3" label="3"></option>
@@ -58,7 +58,7 @@ function Login({ setUser }){
                         <option value="8" label="8"></option>
                         <option value="9" label="9"></option>
                         <option value="10" label="10"></option>
-                    </datalist>
+                    </datalist> */}
                 <button type = "submit"> Get Started!</button>
             </form>
         </div>
