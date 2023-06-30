@@ -169,14 +169,6 @@ code {
   }
 }
 
-/* datalist {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  writing-mode: vertical-lr;
-  width: 200px;
-} */
-
 option {
   padding: 0;
 }
@@ -189,6 +181,7 @@ input[type="range"] {
 button {
   background-color: yellow;
   font-family: 'Courier New', Courier, monospace;
+  border-radius: 2px;
 }
 
 button:hover {
@@ -198,4 +191,9 @@ button:hover {
 .profile-picture {
   max-width: 100px;
   max-height: 100px;
+}
+
+.siren-container {
+  display: flex;
+  gap: 10px;
 }
