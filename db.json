@@ -133,10 +133,10 @@
     "Miami": [
       {
         "id": 1,
-        "description": "Fly to NYC",
-        "destination": "NYC",
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.stgeorgeutah.com%2Fwp-content%2Fuploads%2F2018%2F05%2FNew-York-City-Getty-STGnews.jpg&f=1&nofb=1&ipt=36ab59b45e0ebb0b77020471ecaa94189fd805bf11624589b4cdc9ac226da046&ipo=images",
-        "cost": 150
+        "description": "Learn golfing with Emiley Palmquist",
+        "destination": "Miami",
+        "image": "https://cdn.discordapp.com/attachments/1110981406114451536/1124338532270477342/IMG_2614.jpg",
+        "cost": 1000
       },
       {
         "id": 2,
@@ -265,64 +265,64 @@
         "id": 1,
         "description": "Fly to Chicago",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7e6sz1Z-NdWGSRMlwO_LcwAAAA%26pid%3DApi&f=1&ipt=e26f20e3ea5ca68c2cad513292f905b0f32ea0d8f8a6f2b57eb381c34b5f10af&ipo=images",
+        "cost": 100
       },
       {
         "id": 2,
         "description": "Fly to NYC",
         "destination": "NYC",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.I11fSDuioqYvd2UaodcDNAAAAA%26pid%3DApi&f=1&ipt=847cb5f5b5962a25606a83136e7bf173ba677a84386b7625f8afa51d42609016&ipo=images",
+        "cost": 150
       },
       {
         "id": 3,
         "description": "Fly to Las Vegas",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.thecrazytourist.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fccimage-shutterstock_149733929.jpg&f=1&nofb=1&ipt=513f07c56831223415e635cc95aad6bd5add942bf949bc2f974cba42d9496685&ipo=images",
+        "cost": 100
       },
       {
         "id": 4,
         "description": "Get drunk at Death & Co.",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.cntraveler.com%2Fphotos%2F5bdb0a1b2e350417aea9d728%2Fmaster%2Fw_420%2Cc_limit%2FDeath%252520%26%252520Co%252520Denver_Elliott%252520Clark_D%26C_Denver17.jpg&f=1&nofb=1&ipt=5fb0360b350258949656e76f6f12ee15b55cda4b7140a0b51914a6672002be52&ipo=images",
+        "cost": 88
       },
       {
         "id": 5,
         "description": "Ride a tub float down Straddling Clear Creek",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Finspireportal.com%2Fwp-content%2Fuploads%2F2015%2F11%2F_d_improd_%2Fbigstock-a-man-floating-down-a-river-in-97905344-300x223_f_improf_300x223.jpg&f=1&nofb=1&ipt=38bf295e27ad97c319d9b1415dcc7f40cdacdf6b44cd8f84c794474be3331ff0&ipo=images",
+        "cost": 15
       },
       {
         "id": 6,
         "description": "Go Bison watching at the wildlife refuge",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F54%2F35%2F1e%2F54351eca33f5ced0486ab54ccaa1e08a.jpg&f=1&nofb=1&ipt=2417f56f9a4dc9181070e9a3284fcebfd281fb41e202e7760ea96995d95c6d24&ipo=images",
+        "cost": 45
       },
       {
         "id": 7,
         "description": "Get drunk at Coors brewery",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F2577%2F3752869233_0737cc5924_n.jpg&f=1&nofb=1&ipt=c7a35b91cd1fe614a4835daa183ba90ed1d0068c2ab1d745d571cfabbb538d1b&ipo=images",
+        "cost": 50
       },
       {
         "id": 8,
-        "description": "Learn to rock climb",
+        "description": "Learn to rock climb with Adam La Rosa",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://imgur.com/zwF7usH.jpg",
+        "cost": 1000
       },
       {
         "id": 9,
         "description": "Drive to Leadville and attempt the Leadville 100 Ultramarathon",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fa.espncdn.com%2Fphoto%2F2013%2F0827%2Fend_arnoldsl_cr.jpg&f=1&nofb=1&ipt=047ba937bd6281dcf30320d01c7e13182fac45725154a1a0b92c434dbb1507e3&ipo=images",
+        "cost": 450
       }
     ],
     "Las Vegas": [
@@ -330,64 +330,64 @@
         "id": 1,
         "description": "Fly to Denver",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Jkq6ncHS6eHEIm1bhZHKAgAAAA%26pid%3DApi&f=1&ipt=292af96ef9b94a77339a5d6b92906be4f10ed2b14762eb63df513696e3d471a1&ipo=images",
+        "cost": 100
       },
       {
         "id": 2,
         "description": "Fly to Chicago",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.rXt1UkpxzbgOexi48c_47QAAAA%26pid%3DApi&f=1&ipt=d7bfb34a65b47051a3fece08f4ed0ba64fdfd9acd3d8f8519c785f71640df023&ipo=images",
+        "cost": 150
       },
       {
         "id": 3,
         "description": "Fly to New Orleans",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.BBdmpNnG9T4ZlbPZnEE6mgAAAA%26pid%3DApi&f=1&ipt=0264c7f8d0811a8a45c10a63e8e11f4de84f7e25a3ece39337ed199ad60ca823&ipo=images",
+        "cost": 150
       },
       {
         "id": 4,
         "description": "Gamble your life savings at the Casino",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zwTqo-lxDgziavcs_GjBUgAAAA%26pid%3DApi&f=1&ipt=a408f4d62c3268e9ef52ab98a9865991ee350e165de878978a65a4a208a35287&ipo=images",
+        "cost": 2000
       },
       {
         "id": 5,
         "description": "Do a Desert ATV Tour",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tacdn.com%2Fmedia%2Fattractions-splice-spp-720x480%2F07%2Fa4%2Fbf%2Fad.jpg&f=1&nofb=1&ipt=32ff86bdd188da7530189e78a85065593617bcdb509ea29f46106d3dc7c2cb94&ipo=images",
+        "cost": 150
       },
       {
         "id": 6,
         "description": "Stroll through the Botanical Gardens",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcf%2F03%2F5b%2Fcf035bcab6dd69cbd8d9a830aaddcbb6.jpg&f=1&nofb=1&ipt=ece991dbf9c4120d8cadd0f072d036ccfb97c4606683859c4da8b6bed508c80c&ipo=images",
+        "cost": 30
       },
       {
         "id": 7,
         "description": "See the Cirque Du Soleil",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.lasvegasweekly.com%2Fimg%2Fphotos%2F2021%2F04%2F21%2FMystere_reopen_Matt_Beard_.jpg&f=1&nofb=1&ipt=5986519a86a266282d505e9c0cdc627558d3e1c410b1a81eac954f2094c18767&ipo=images",
+        "cost": 30
       },
       {
         "id": 8,
         "description": "Cry in your hotel room at The Venetian",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.destination360.com%2Fnorth-america%2Fus%2Fnevada%2Flas-vegas%2Fvenetian-las-vegas.jpg&f=1&nofb=1&ipt=9db6a9f869d055fec3536d3ea84dfbcf72b6fe0f3fe95c3a338e77308a06caf2&ipo=images",
+        "cost": 500
       },
       {
         "id": 9,
-        "description": "Visit Antelope Canyon",
+        "description": "Almost re-enact 127 hours at Antelope Canyon",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.abc.net.au%2Freslib%2F201101%2Fr707932_5502699.jpg&f=1&nofb=1&ipt=564ab9496cf86f60fec185fd88ced28b7126a494ad143fea18ad77a3a64af9d2&ipo=images",
+        "cost": 1
       }
     ],
     "Saint Louis": [
@@ -453,64 +453,64 @@
         "id": 1,
         "description": "Fly to Miami",
         "destination": "Miami",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.0WVTlexDMfGMeNIBG3KF0wAAAA%26pid%3DApi&f=1&ipt=2c2ed7c42a57f152312b73c6c73be12cffcc349307f5062800a4d769b0bd419c&ipo=images",
+        "cost": 100
       },
       {
         "id": 2,
         "description": "Fly to Chicago",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.rXt1UkpxzbgOexi48c_47QAAAA%26pid%3DApi&f=1&ipt=d7bfb34a65b47051a3fece08f4ed0ba64fdfd9acd3d8f8519c785f71640df023&ipo=images",
+        "cost": 150
       },
       {
         "id": 3,
         "description": "Fly to NYC",
         "destination": "NYC",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.I11fSDuioqYvd2UaodcDNAAAAA%26pid%3DApi&f=1&ipt=847cb5f5b5962a25606a83136e7bf173ba677a84386b7625f8afa51d42609016&ipo=images",
+        "cost": 150
       },
       {
         "id": 4,
         "description": "Dance your heart out at a Jazz Festival",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.h7KFslhhNt6RjOaIMn3kGQAAAA%26pid%3DApi&f=1&ipt=51dffb291c170f5f44b75fd039f7dda3a59866d4f8bc800a75a02cb04c54e992&ipo=images",
+        "cost": 75
       },
       {
         "id": 5,
         "description": "Get drunk at Bourbon Street during Mardi Gras",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.oz5v9hEzJgk8XRQIOaM-KwAAAA%26pid%3DApi&f=1&ipt=d99e02fab2296e314a5df9605ff0f58a7e3027360639db6720cee4141253494f&ipo=images",
+        "cost": 50
       },
       {
         "id": 6,
         "description": "Get almost too drunk on a True Crime Pub Crawl",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F149480414.v2.pressablecdn.com%2Fwp-content%2Fuploads%2F2021%2F03%2FContest-1-Image-300x300.png&f=1&nofb=1&ipt=f3497e035f72a3201b50b18395e85df2c4ced5096ef086da54d56778a7cb5637&ipo=images",
+        "cost": 40
       },
       {
         "id": 7,
         "description": "Eat your heart out on a Donut & Beignet walking tour",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Ffetch%2Fc_fill%2Ch_200%2Cq_75%2Cw_300%2Fhttp%3A%2F%2Fres.cloudinary.com%2Fsimpleview%2Fimage%2Fupload%2Fv1503685999%2Fclients%2Fneworleans%2FNOTMC_22021_7bcc61ae-59ea-4a0f-8ff5-aa8d720390be.jpg&f=1&nofb=1&ipt=0a0801ea9a8ebf10ae7c5a17ad7768b1cdbf16bd7521ff627c6def294581c220&ipo=images",
+        "cost": 40
       },
       {
         "id": 8,
         "description": "Get very drunk at a LSU sports bar during a football game",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.1qqTm_Y2psWepdKP7P8ptQAAAA%26pid%3DApi&f=1&ipt=c324a082d9d42966c96b576341cfdb3e40aab3ebe4f523cf894af7a7a2a66b8f&ipo=images",
+        "cost": 90
       },
       {
         "id": 9,
         "description": "Go on a ghosts, vampires, and vodoo french quarter tour",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.QG3wPO7UHfaG5Ks79xU46gAAAA%26pid%3DApi&f=1&ipt=0ae4cc542728a0f17f7b0323ec08e5cb94def86eeb7c4505ce3c3a3b04b0b0b7&ipo=images",
+        "cost": 60
       }
     ],
     "Nashville": [
@@ -583,64 +583,64 @@
         "id": 1,
         "description": "Fly to Denver",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Jkq6ncHS6eHEIm1bhZHKAgAAAA%26pid%3DApi&f=1&ipt=292af96ef9b94a77339a5d6b92906be4f10ed2b14762eb63df513696e3d471a1&ipo=images",
+        "cost": 150
       },
       {
         "id": 2,
         "description": "Fly to Miami",
         "destination": "Miami",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.0WVTlexDMfGMeNIBG3KF0wAAAA%26pid%3DApi&f=1&ipt=2c2ed7c42a57f152312b73c6c73be12cffcc349307f5062800a4d769b0bd419c&ipo=images",
+        "cost": 100
       },
       {
         "id": 3,
         "description": "Fly to Chicago",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.rXt1UkpxzbgOexi48c_47QAAAA%26pid%3DApi&f=1&ipt=d7bfb34a65b47051a3fece08f4ed0ba64fdfd9acd3d8f8519c785f71640df023&ipo=images",
+        "cost": 100
       },
       {
         "id": 4,
-        "description": "",
+        "description": "Visit U.S. National Whitewater Center",
         "destination": "Charlotte",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.dIPicyad10Jwmeti46v_jAAAAA%26pid%3DApi&f=1&ipt=966da6d98e6232679c01138faf62b0c0ac21e56cad8a581e6d6d6063735dfd7b&ipo=images",
+        "cost": 30
       },
       {
         "id": 5,
-        "description": "",
+        "description": "Visit Sullenberger Aviation Museum",
         "destination": "Charlotte",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.6Bl5PTDxKqDu1t4CG4i-9QAAAA%26pid%3DApi&f=1&ipt=9bc6cabac2036a45352c6c265d8a1428ed9151d3e3150cfdc1e38121eb7f6487&ipo=images",
+        "cost": 20
       },
       {
         "id": 6,
-        "description": "",
+        "description": "Take a stroll through Daniel Stowe Botanical Garden",
         "destination": "Charlotte",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.-GFo68HBRNUTHSCyZBymeAAAAA%26pid%3DApi&f=1&ipt=ad1db999a4f8fb26ca1ff58e8d45d2c26a2d6bc8dcc4c9e641c7fdef1211ada2&ipo=images",
+        "cost": 10
       },
       {
         "id": 7,
-        "description": "",
+        "description": "Visit Crowders Mountain State Park",
         "destination": "Charlotte",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcarolinaclimbers.org%2Fsites%2Fdefault%2Ffiles%2Fparkofyear3_0.jpg&f=1&nofb=1&ipt=6e884842d3988efc1a532d5828b67c79c4243339a9f756f3b35281f779c0e3db&ipo=images",
+        "cost": 30
       },
       {
         "id": 8,
-        "description": "",
+        "description": "Try to recover your life savings at Reed Gold Mine (, and maybe nearly die trying)",
         "destination": "Charlotte",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.P60Bgb7i7x6kzmEXQFk4ZwAAAA%26pid%3DApi&f=1&ipt=506b838363209ea4365f6a0bb2afa749aa64f968b372db1b5fffcdd7fcf5c426&ipo=images",
+        "cost": -100
       },
       {
         "id": 9,
-        "description": "",
+        "description": "See the Metalmorphosis sculpture",
         "destination": "Charlotte",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F3748%2F11199549335_e05e0a0cdd_b.jpg&f=1&nofb=1&ipt=c596644e975ffd5d11f6a31fa1f17e956c00688b0be3a20599ee9d9dabdb8fa9&ipo=images",
+        "cost": 100
       }
     ],
     "Acadia": [
@@ -648,64 +648,64 @@
         "id": 1,
         "description": "Fly to Boston",
         "destination": "Boston",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.iEGBB2BEID2lU2P_oWdUuwAAAA%26pid%3DApi&f=1&ipt=ff834f4b45b73bf222a45bb95f2d135d826ef2e4f82a681e5eaa25cf51dc4829&ipo=images",
+        "cost": 100
       },
       {
         "id": 2,
         "description": "Fly to Miami",
         "destination": "Miami",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.0WVTlexDMfGMeNIBG3KF0wAAAA%26pid%3DApi&f=1&ipt=2c2ed7c42a57f152312b73c6c73be12cffcc349307f5062800a4d769b0bd419c&ipo=images",
+        "cost": 200
       },
       {
         "id": 3,
-        "description": "",
+        "description": "Try Lobster Ice Cream",
         "destination": "Acadia",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flikeitviral.com%2Fwp-content%2Fuploads%2F2021%2F01%2F2cfb1e5d071c67ac825a47e9de3be38a-1.jpg&f=1&nofb=1&ipt=097ecd6d38f69f068849675376e62e9118e37bff8a711420b8bcd8e5edb00003&ipo=images",
+        "cost": 10
       },
       {
         "id": 4,
-        "description": "",
+        "description": "Hike the precipice trail (climbs over 1000 fet in less than 2 miles)",
         "destination": "Acadia",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.MJPNV2w5rPdewou5L0xr1wAAAA%26pid%3DApi&f=1&ipt=0a1c3a510d1a2f14d60336817213bedf24446ed5f9c1ee247e52b86a84f69362&ipo=images",
+        "cost": 7
       },
       {
         "id": 5,
-        "description": "",
+        "description": "Watch the sunrise on Cadillac Mountain",
         "destination": "Acadia",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.9-H1wVgijBNlYoOGbGZXZgHaE8%26pid%3DApi&f=1&ipt=44550ff6bdb23318c16739dd88219e894edfaf2848b114e4722018c6a559ca27&ipo=images",
+        "cost": 7
       },
       {
         "id": 6,
-        "description": "",
+        "description": "Go kayaking on Jordan Pond",
         "destination": "Acadia",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.etravelmaine.com%2Fwp-content%2Fuploads%2F2012%2F03%2Fjordan-pond-300x199.jpg&f=1&nofb=1&ipt=71aac5168794e3f73bc25ec9865537a2b66e3640bac2130657fb5276c0ff5507&ipo=images",
+        "cost": 30
       },
       {
         "id": 7,
-        "description": "",
+        "description": "Drink a gallon of Blueberry Ale",
         "destination": "Acadia",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fbeerme.com%2Fgraphics%2Fbrewery%2F0%2F155%2F20976.png&f=1&nofb=1&ipt=f7daa3b3b0412707f9a3a0f26bbdb85feb526b6261cfe003344d15fc3b658305&ipo=images",
+        "cost": 50
       },
       {
         "id": 8,
-        "description": "",
+        "description": "Eat five dozen oysters",
         "destination": "Acadia",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmacsseafood.com%2Fwp-content%2Fuploads%2F2021%2F08%2FOysters-lots-on-raw-bar-2048x1536.jpg&f=1&nofb=1&ipt=c88d772fd34775de280786ad4f8b39cd76e00f6a73290e1dda9e78b188aa2157&ipo=images",
+        "cost": 150
       },
       {
         "id": 9,
-        "description": "",
+        "description": "Eat more lobster rolls",
         "destination": "Acadia",
-        "image": "",
-        "cost": 0
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.foodiecrush.com%2Fwp-content%2Fuploads%2F2020%2F06%2FLobster-Rolls-foodiecrush.com-012-1024x1536.jpg&f=1&nofb=1&ipt=a009fce1efd5a1ab20c0968f7ba163fe5cae92ecb23c11de9b456b1684c7e101&ipo=images",
+        "cost": 120
       }
     ]
   },

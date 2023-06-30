@@ -42,10 +42,13 @@ Create your own profile with your name, profile picture url, and selected quarte
 - detailed description on activity cards (shown on back?)
 - hover box showing current wallet (maybe whole nav should be floating?)
 - still images on activities card show 10 second gif on hover
+- activity images stored locally, not from external urls
 - game design improvements:
     - activities in cities change upon subsequent visits
     - achievements based on activity selection on finish (i.e. went to all bar activities)
     - adding time metric
+    - profile picture selection
+    - variable cost activities
 - fix routing to prevent breaking if user manually changes route on brower url
 
 ### Thank You For Viewing Our Project
