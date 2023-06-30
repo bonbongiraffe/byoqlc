@@ -574,8 +574,8 @@
         "id": 9,
         "description": "Adventureworks Zipline Forest",
         "destination": "Nashville",
-        "image": "",
-        "cost": 0
+        "image": "https://media1.giphy.com/media/xFoMsyIxeohCazMOzq/giphy.gif",
+        "cost": 40
       }
     ],
     "Charlotte": [
