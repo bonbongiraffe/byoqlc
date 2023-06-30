@@ -70,64 +70,64 @@
         "id": 1,
         "description": "Fly to Denver",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Full_Denver_skyline.jpg/536px-Full_Denver_skyline.jpg",
+        "cost": 650
       },
       {
         "id": 2,
         "description": "Fly to Las Vegas",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://hips.hearstapps.com/hmg-prod/images/perfect-weekend-las-vegas-6499fc797cbdd.jpg?crop=1.00xw:1.00xh;0,0&resize=2048:*",
+        "cost": 345
       },
       {
         "id": 3,
         "description": "Fly to Saint Louis",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/St_Louis_night_expblend.jpg/800px-St_Louis_night_expblend.jpg",
+        "cost": 250
       },
       {
         "id": 4,
         "description": "Eat 10 Deep Dish Pizzas",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://www.juicer.io/api/posts/468683333/images.jpg?external_id=CsE_B3Eu1_-&s=203ef6e927e8b25acbc1ca0ffce02340a17dc2c4",
+        "cost": 120
       },
       {
         "id": 5,
         "description": "Get drunk at Violet Hour",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://hhrevolution.com/wp-content/uploads/2019/08/Violet-Hour-2-400x400.jpg",
+        "cost": 250
       },
       {
         "id": 6,
         "description": "Kayak the entire Chicago River",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://www.enjoyillinois.com/assets/Tourism-Operators/images/itims/_resampled/CroppedFocusedImageWzgwMCw0NTAsInkiLDld/24939_9837.jpg",
+        "cost": 45
       },
       {
         "id": 7,
         "description": "Commiserate with animals at Lincoln Park Zoo",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://secretchicago.com/wp-content/uploads/2022/05/Linvoln-Park-Zoo-1024x554.jpg",
+        "cost": 40
       },
       {
         "id": 8,
         "description": "Go to Millenium Park",
         "destination": "Chicago",
-        "image": "",
+        "image": "https://media.cntraveler.com/photos/53e2dd87dddaa35c30f61223/16:9/w_1600,c_limit/chicago-millenium-park-sculpture.jpg",
         "cost": 0
       },
       {
         "id": 9,
         "description": "Fly to NYC",
         "destination": "NYC",
-        "image": "",
-        "cost": 0
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAj3v7p5Xik7YH8I2raveMnMaLM_j-CrafQQ&usqp=CAU",
+        "cost": 575
       }
     ],
     "Miami": [
@@ -142,57 +142,57 @@
         "id": 2,
         "description": "Fly to Charlotte",
         "destination": "Charlotte",
-        "image": "",
-        "cost": 0
+        "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQgSuTpTSanIvrI8-8zpAwEBO1J9SVEmkjI7NBYrSpMWt8__SPlx7G8PVF2K4n6F6KJvaFmZIuZsCyuGW-aqPgFGflxZA",
+        "cost": 250
       },
       {
         "id": 3,
         "description": "Fly to New Orleans",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://img.cruisecritic.net/img-cc-r/features/2017/01/rewrite_local-nola.jpg?auto=compress%2Cformat&fp-z=1&h=533&w=800&ar=3%3A2&dpr=2.625&q=15&ixlib=react-9.0.2",
+        "cost": 120
       },
       {
         "id": 4,
         "description": "Fly to Nashville",
         "destination": "Nashville",
-        "image": "",
-        "cost": 0
+        "image": "https://i1.wp.com/wanderlustinreallife.com/wp-content/uploads/2021/05/img_0321.jpg?ssl=1",
+        "cost": 200
       },
       {
         "id": 5,
         "description": "Bahamas Cruise",
         "destination": "Miami",
-        "image": "",
-        "cost": 0
+        "image": "https://www.ncl.com/sites/default/files/1000x667_norwegian-sky-cruise_060722.jpg",
+        "cost": 400
       },
       {
         "id": 6,
         "description": "Go to a Nascar show",
         "destination": "Miami",
-        "image": "",
-        "cost": 0
+        "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/06/720/405/homstead.jpg?ve=1&tl=1",
+        "cost": 80
       },
       {
         "id": 7,
-        "description": "Almost get eaten at Gator Land",
+        "description": "ALMOST get eaten at Gator Land",
         "destination": "Miami",
-        "image": "",
+        "image": "https://static1.squarespace.com/static/54c139eee4b0c9e8d5a12fa6/t/55036106e4b072c28ebc66c9/1426284823837/?format=500w",
         "cost": 0
       },
       {
         "id": 8,
         "description": "Go to a Drag show",
         "destination": "Miami",
-        "image": "",
-        "cost": 0
+        "image": "https://media2.miaminewtimes.com/mia/imager/u/magnum/14211780/rhouse_dragone_rhouse.jpg?cb=1649092899",
+        "cost": 60
       },
       {
         "id": 9,
         "description": "Visit Kennedy Space Center",
         "destination": "Miami",
-        "image": "",
-        "cost": 0
+        "image": "https://www.kennedyspacecenter.com/-/media/DNC/KSCVC/Attraction-Images/Explore-front-gates-with-Delta-II-900x600.ashx?h=600&w=900&la=en&hash=397FEA5BA6FE613DE69ADA6409BCD202A67DC083",
+        "cost": 200
       }
     ],
     "Boston": [
@@ -395,57 +395,57 @@
         "id": 1,
         "description": "Fly to Chicago",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://static.independent.co.uk/2023/03/14/09/Chicago-1.png",
+        "cost": 250
       },
       {
         "id": 2,
         "description": "Fly to New Orleans",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ChrisLitherlandBourbonSt.jpg/600px-ChrisLitherlandBourbonSt.jpg",
+        "cost": 485
       },
       {
         "id": 3,
         "description": "Fly to NYC",
         "destination": "NYC",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/1200px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg",
+        "cost": 645
       },
       {
         "id": 4,
         "description": "Get drunk at Anheuser-Busch brewery",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://cdn.britannica.com/08/128608-050-A3B4F76B/brewery-Anheuser-Busch-St-Louis-Missouri.jpg?w=400&h=300&c=crop",
+        "cost": 50
       },
       {
         "id": 5,
         "description": "Attend a concert at the St. Louis Symphony Orchestra",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://eventective-media.azureedge.net/2573072_lg.jpg",
+        "cost": 125
       },
       {
         "id": 6,
         "description": "Visit the Gateway Arch",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2016/12/1024px-st_louis_night.jpg",
+        "cost": 45
       },
       {
         "id": 7,
         "description": "Cry in your hotel room at the Rivery City Casino Hotel after losing your life savings",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/22423288.jpg?k=c7d239864b1924edf28e37c158f5092917c42c2a9b839042198e0001596e88c1&o=&hp=1",
+        "cost": 3000
       },
       {
         "id": 9,
         "description": "Visit the Chatlillon-DeMenil Mansion",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://images.squarespace-cdn.com/content/v1/574f44eaf8baf35e5da0c183/1570128637214-C01OQJOLF2EK9RSBJY46/Demenil+Exterior.jpg?format=750w",
+        "cost": 25
       }
     ],
     "New Orleans": [
@@ -518,64 +518,64 @@
         "id": 1,
         "description": "Fly to Boston",
         "destination": "Boston",
-        "image": "",
-        "cost": 0
+        "image": "https://a.cdn-hotels.com/gdcs/production40/d1405/1ff89d44-2782-4ad0-84f9-3c360924aaac.jpg?impolicy=fcrop&w=800&h=533&q=medium",
+        "cost": 300
       },
       {
         "id": 2,
         "description": "Fly to Saint Louis",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://www.extraspace.com/blog/wp-content/uploads/2019/01/living-in-st-louis-mo.jpg.webp",
+        "cost": 150
       },
       {
         "id": 3,
         "description": "Fly to Miami",
         "destination": "Miami",
-        "image": "",
-        "cost": 0
+        "image": "https://media.timeout.com/images/105895314/750/422/image.jpg",
+        "cost": 199
       },
       {
         "id": 4,
-        "description": "",
+        "description": "Grand Ole Opry",
         "destination": "Nashville",
-        "image": "",
-        "cost": 0
+        "image": "https://cdn.getyourguide.com/img/tour/5f2170225bf3e.jpeg/146.jpg",
+        "cost": 100
       },
       {
         "id": 5,
-        "description": "",
+        "description": "Johnny Cash Museum",
         "destination": "Nashville",
-        "image": "",
-        "cost": 0
+        "image": "https://www.nashville.com/wp-content/uploads/2017/11/be7382be5122d7a0c0cf8eba_560x372-560x330.jpg",
+        "cost": 85
       },
       {
         "id": 6,
-        "description": "",
+        "description": "The Parthenon",
         "destination": "Nashville",
-        "image": "",
-        "cost": 0
+        "image": "https://i0.wp.com/www.gothichorrorstories.com/wp-content/uploads/2012/09/IMG_4927.jpg?resize=1200%2C960&ssl=1",
+        "cost": 100
       },
       {
         "id": 7,
-        "description": "",
+        "description": "Madame Tussauds",
         "destination": "Nashville",
-        "image": "",
-        "cost": 0
+        "image": "https://madame-tussauds-tickets.com/wp-content/uploads/Elvis-and-friends-at-Madame-Tussauds-Nashville.webp",
+        "cost": 45
       },
       {
         "id": 8,
-        "description": "",
+        "description": "Dyer Observatory",
         "destination": "Nashville",
-        "image": "",
-        "cost": 0
+        "image": "https://cdn.vanderbilt.edu/vu-sub/wp-content/uploads/sites/63/2011/05/19134027/tiny-Billly-in-portable-dome-1024x681.jpg",
+        "cost": 60
       },
       {
         "id": 9,
-        "description": "",
+        "description": "Adventureworks Zipline Forest",
         "destination": "Nashville",
-        "image": "",
-        "cost": 0
+        "image": "https://media1.giphy.com/media/xFoMsyIxeohCazMOzq/giphy.gif",
+        "cost": 40
       }
     ],
     "Charlotte": [
