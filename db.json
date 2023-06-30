@@ -70,64 +70,64 @@
         "id": 1,
         "description": "Fly to Denver",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Full_Denver_skyline.jpg/536px-Full_Denver_skyline.jpg",
+        "cost": 650
       },
       {
         "id": 2,
         "description": "Fly to Las Vegas",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://hips.hearstapps.com/hmg-prod/images/perfect-weekend-las-vegas-6499fc797cbdd.jpg?crop=1.00xw:1.00xh;0,0&resize=2048:*",
+        "cost": 345
       },
       {
         "id": 3,
         "description": "Fly to Saint Louis",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/St_Louis_night_expblend.jpg/800px-St_Louis_night_expblend.jpg",
+        "cost": 250
       },
       {
         "id": 4,
         "description": "Eat 10 Deep Dish Pizzas",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://www.juicer.io/api/posts/468683333/images.jpg?external_id=CsE_B3Eu1_-&s=203ef6e927e8b25acbc1ca0ffce02340a17dc2c4",
+        "cost": 120
       },
       {
         "id": 5,
         "description": "Get drunk at Violet Hour",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://hhrevolution.com/wp-content/uploads/2019/08/Violet-Hour-2-400x400.jpg",
+        "cost": 250
       },
       {
         "id": 6,
         "description": "Kayak the entire Chicago River",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://www.enjoyillinois.com/assets/Tourism-Operators/images/itims/_resampled/CroppedFocusedImageWzgwMCw0NTAsInkiLDld/24939_9837.jpg",
+        "cost": 45
       },
       {
         "id": 7,
         "description": "Commiserate with animals at Lincoln Park Zoo",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://secretchicago.com/wp-content/uploads/2022/05/Linvoln-Park-Zoo-1024x554.jpg",
+        "cost": 40
       },
       {
         "id": 8,
         "description": "Go to Millenium Park",
         "destination": "Chicago",
-        "image": "",
+        "image": "https://media.cntraveler.com/photos/53e2dd87dddaa35c30f61223/16:9/w_1600,c_limit/chicago-millenium-park-sculpture.jpg",
         "cost": 0
       },
       {
         "id": 9,
         "description": "Fly to NYC",
         "destination": "NYC",
-        "image": "",
-        "cost": 0
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAj3v7p5Xik7YH8I2raveMnMaLM_j-CrafQQ&usqp=CAU",
+        "cost": 575
       }
     ],
     "Miami": [
@@ -395,57 +395,57 @@
         "id": 1,
         "description": "Fly to Chicago",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://static.independent.co.uk/2023/03/14/09/Chicago-1.png",
+        "cost": 250
       },
       {
         "id": 2,
         "description": "Fly to New Orleans",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ChrisLitherlandBourbonSt.jpg/600px-ChrisLitherlandBourbonSt.jpg",
+        "cost": 485
       },
       {
         "id": 3,
         "description": "Fly to NYC",
         "destination": "NYC",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/1200px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg",
+        "cost": 645
       },
       {
         "id": 4,
         "description": "Get drunk at Anheuser-Busch brewery",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://cdn.britannica.com/08/128608-050-A3B4F76B/brewery-Anheuser-Busch-St-Louis-Missouri.jpg?w=400&h=300&c=crop",
+        "cost": 50
       },
       {
         "id": 5,
         "description": "Attend a concert at the St. Louis Symphony Orchestra",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://eventective-media.azureedge.net/2573072_lg.jpg",
+        "cost": 125
       },
       {
         "id": 6,
         "description": "Visit the Gateway Arch",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2016/12/1024px-st_louis_night.jpg",
+        "cost": 45
       },
       {
         "id": 7,
         "description": "Cry in your hotel room at the Rivery City Casino Hotel after losing your life savings",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/22423288.jpg?k=c7d239864b1924edf28e37c158f5092917c42c2a9b839042198e0001596e88c1&o=&hp=1",
+        "cost": 3000
       },
       {
         "id": 9,
         "description": "Visit the Chatlillon-DeMenil Mansion",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://images.squarespace-cdn.com/content/v1/574f44eaf8baf35e5da0c183/1570128637214-C01OQJOLF2EK9RSBJY46/Demenil+Exterior.jpg?format=750w",
+        "cost": 25
       }
     ],
     "New Orleans": [
@@ -913,174 +913,6 @@
         }
       ],
       "id": 2
-    },
-    {
-      "name": "Jessica",
-      "crisis": 10,
-      "image": "",
-      "wallet": 9900,
-      "location": "Nashville",
-      "submitted": true,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Miami",
-          "destination": "Miami",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.visiteosusa.com.br%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fhero_l_x2%2Fpublic%2F2019-04%2F5a9bd91d9b08deecaa274ee97a84a0d7.jpeg%3Fitok%3DMIGpgpUN&f=1&nofb=1&ipt=3c3889da3de1344c3da2c0f32b32c43cb8b8bdae638e5a7bf2fbb6908ce40a04&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 2,
-          "description": "Fly to Nashville",
-          "destination": "Nashville",
-          "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.travelandleisure.com%2Fthmb%2FYKs-Ysu0HgWDdxgIcm5P_gbYQmQ%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fdowntown-NASHVILLE0816-2000-0c5bcef293f14b398cf0be3b208990ff.jpg&tbnid=OL1seNUma_LrEM&vet=12ahUKEwjmma7ajuv_AhUMK2IAHQl5C8cQMygDegUIARD2AQ..i&imgrefurl=https%3A%2F%2Fwww.travelandleisure.com%2Fweekend-getaways%2Fweekend-in-nashville&docid=oWbZ1bMktRN_hM&w=1500&h=938&q=nashville%20tennessee%20&hl=en&ved=2ahUKEwjmma7ajuv_AhUMK2IAHQl5C8cQMygDegUIARD2AQ",
-          "cost": 0
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "Jessica",
-      "crisis": 10,
-      "image": "",
-      "wallet": 9900,
-      "location": "Miami",
-      "submitted": false,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Miami",
-          "destination": "Miami",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.visiteosusa.com.br%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fhero_l_x2%2Fpublic%2F2019-04%2F5a9bd91d9b08deecaa274ee97a84a0d7.jpeg%3Fitok%3DMIGpgpUN&f=1&nofb=1&ipt=3c3889da3de1344c3da2c0f32b32c43cb8b8bdae638e5a7bf2fbb6908ce40a04&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "Jessica",
-      "crisis": 10,
-      "image": "",
-      "wallet": 9900,
-      "location": "Miami",
-      "submitted": false,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Miami",
-          "destination": "Miami",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.visiteosusa.com.br%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fhero_l_x2%2Fpublic%2F2019-04%2F5a9bd91d9b08deecaa274ee97a84a0d7.jpeg%3Fitok%3DMIGpgpUN&f=1&nofb=1&ipt=3c3889da3de1344c3da2c0f32b32c43cb8b8bdae638e5a7bf2fbb6908ce40a04&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 5
-    },
-    {
-      "name": "Jessica",
-      "crisis": 10,
-      "image": "",
-      "wallet": 9900,
-      "location": "Miami",
-      "submitted": false,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Miami",
-          "destination": "Miami",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.visiteosusa.com.br%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fhero_l_x2%2Fpublic%2F2019-04%2F5a9bd91d9b08deecaa274ee97a84a0d7.jpeg%3Fitok%3DMIGpgpUN&f=1&nofb=1&ipt=3c3889da3de1344c3da2c0f32b32c43cb8b8bdae638e5a7bf2fbb6908ce40a04&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 6
-    },
-    {
-      "name": "Jessica",
-      "crisis": 10,
-      "image": "",
-      "wallet": 9900,
-      "location": "Miami",
-      "submitted": false,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Miami",
-          "destination": "Miami",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.visiteosusa.com.br%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fhero_l_x2%2Fpublic%2F2019-04%2F5a9bd91d9b08deecaa274ee97a84a0d7.jpeg%3Fitok%3DMIGpgpUN&f=1&nofb=1&ipt=3c3889da3de1344c3da2c0f32b32c43cb8b8bdae638e5a7bf2fbb6908ce40a04&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 7
-    },
-    {
-      "name": "Jessica",
-      "crisis": 10,
-      "image": "",
-      "wallet": 9900,
-      "location": "Miami",
-      "submitted": false,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Miami",
-          "destination": "Miami",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.visiteosusa.com.br%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fhero_l_x2%2Fpublic%2F2019-04%2F5a9bd91d9b08deecaa274ee97a84a0d7.jpeg%3Fitok%3DMIGpgpUN&f=1&nofb=1&ipt=3c3889da3de1344c3da2c0f32b32c43cb8b8bdae638e5a7bf2fbb6908ce40a04&ipo=images",
-          "cost": 100
-        }
-      ],
-      "id": 8
-    },
-    {
-      "name": "khkfh",
-      "crisis": 10,
-      "image": "",
-      "wallet": 10000,
-      "location": "NYC",
-      "submitted": false,
-      "activities": [],
-      "id": 9
-    },
-    {
-      "name": "Jessica",
-      "crisis": 10,
-      "image": "",
-      "wallet": 9800,
-      "location": "Chicago",
-      "submitted": false,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Chicago",
-          "destination": "Chicago",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.moneycrashers.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fvisit-chicago-attractions-places.jpg&f=1&nofb=1&ipt=f96f9d5e29ea83b1ce8c0585084eb42af5600fc83cb2da8b3e7a11b0cdec7f36&ipo=images",
-          "cost": 200
-        }
-      ],
-      "id": 10
-    },
-    {
-      "name": "j",
-      "crisis": 10,
-      "image": "",
-      "wallet": 9700,
-      "location": "Nashville",
-      "submitted": false,
-      "activities": [
-        {
-          "id": 1,
-          "description": "Fly to Miami",
-          "destination": "Miami",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.visiteosusa.com.br%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fhero_l_x2%2Fpublic%2F2019-04%2F5a9bd91d9b08deecaa274ee97a84a0d7.jpeg%3Fitok%3DMIGpgpUN&f=1&nofb=1&ipt=3c3889da3de1344c3da2c0f32b32c43cb8b8bdae638e5a7bf2fbb6908ce40a04&ipo=images",
-          "cost": 100
-        },
-        {
-          "id": 2,
-          "description": "Fly to Nashville",
-          "destination": "Nashville",
-          "image": "https://i1.wp.com/wanderlustinreallife.com/wp-content/uploads/2021/05/img_0321.jpg?ssl=1",
-          "cost": 200
-        }
-      ],
-      "id": 11
     }
   ]
 }
