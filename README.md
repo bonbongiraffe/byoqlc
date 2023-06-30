@@ -16,7 +16,8 @@ Create your own profile with your name, profile picture url, and selected quarte
         - Activities
             - Search
             - ActivityCard
-        - Cart
+        - Cart 
+            - (CartCard)
         - Login
         - Finish
             - FinishCard
@@ -43,6 +44,7 @@ Create your own profile with your name, profile picture url, and selected quarte
 - hover box showing current wallet (maybe whole nav should be floating?)
 - still images on activities card show 10 second gif on hover
 - activity images stored locally, not from external urls
+- background images on activity screen based on location
 - game design improvements:
     - activities in cities change upon subsequent visits
     - achievements based on activity selection on finish (i.e. went to all bar activities)

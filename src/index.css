@@ -18,7 +18,7 @@
 
 nav {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   font-family:'Courier New', Courier, monospace;
   background: #292828;
@@ -56,6 +56,7 @@ a:hover {
 
 .flight-card {
   display: flex;
+  justify-content: space-between;
   gap: 30px;
   background-color: lightblue;
   border: dashed #808080;
@@ -68,6 +69,7 @@ a:hover {
 
 .cart-card {
   display: flex;
+  justify-content: space-between;
   gap: 30px;
   background-color: yellow;
   border: dashed #808080
@@ -76,6 +78,14 @@ a:hover {
 .cart-card img {
   max-width: 100px;
   max-height: 100px;
+}
+
+.cart h3{
+  align-self: flex-start;
+}
+
+.cart h4{
+  margin-left: auto;
 }
 
 .login {
@@ -160,6 +170,7 @@ code {
 .activity-card img {
   max-width: 200px;
   max-height: 200px;
+  border: solid black;
 }
 
 @media (min-width: 2048px) {
@@ -196,4 +207,8 @@ button:hover {
 .siren-container {
   display: flex;
   gap: 10px;
+}
+
+ul {
+  list-style-type: none;
 }
