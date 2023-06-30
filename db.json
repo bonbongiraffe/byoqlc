@@ -441,6 +441,13 @@
         "cost": 3000
       },
       {
+        "id": 8,
+        "description": "Take a stroll through Missouri Botanical Garden",
+        "destination": "Saint Louis",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.EVw__2qWg5UpOaOKFNXSTAAAAA%26pid%3DApi&f=1&ipt=4b750398552fce9ab1e37284c7db37d514f7b973e8ba4b24c9639f070f122683&ipo=images",
+        "cost": 20
+      },
+      {
         "id": 9,
         "description": "Visit the Chatlillon-DeMenil Mansion",
         "destination": "Saint Louis",
