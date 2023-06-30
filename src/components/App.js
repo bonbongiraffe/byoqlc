@@ -32,7 +32,7 @@ function App() {
       })
   },[])
 
-  //
+  //on submit qlc, change nav
   const handleFinish = () => {
     fetch(`${url}/users/${user.id}`,{
       method: "PATCH",
@@ -43,6 +43,7 @@ function App() {
       .then( updatedUser => setUser(updatedUser))
   }
 
+  //on finish screen, start new profile and redirect to login
   const handleRestart = () => {
     fetch(`${url}/users/${user.id}`,{
       method: "PATCH",

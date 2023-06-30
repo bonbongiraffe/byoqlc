@@ -3,6 +3,7 @@ import ActivityCard from "./ActivityCard"
 import Search from "./Search"
 
 function Activities({ location, activities, addActivity }) {
+    console.log(location)
 
     const [search, setSearch] = useState ("")
     const currentActivities = activities[location] ? activities[location] : []
