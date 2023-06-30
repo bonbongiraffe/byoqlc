@@ -70,73 +70,73 @@
         "id": 1,
         "description": "Fly to Denver",
         "destination": "Denver",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Full_Denver_skyline.jpg/536px-Full_Denver_skyline.jpg",
+        "cost": 650
       },
       {
         "id": 2,
         "description": "Fly to Las Vegas",
         "destination": "Las Vegas",
-        "image": "",
-        "cost": 0
+        "image": "https://hips.hearstapps.com/hmg-prod/images/perfect-weekend-las-vegas-6499fc797cbdd.jpg?crop=1.00xw:1.00xh;0,0&resize=2048:*",
+        "cost": 345
       },
       {
         "id": 3,
         "description": "Fly to Saint Louis",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/St_Louis_night_expblend.jpg/800px-St_Louis_night_expblend.jpg",
+        "cost": 250
       },
       {
         "id": 4,
         "description": "Eat 10 Deep Dish Pizzas",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://www.juicer.io/api/posts/468683333/images.jpg?external_id=CsE_B3Eu1_-&s=203ef6e927e8b25acbc1ca0ffce02340a17dc2c4",
+        "cost": 120
       },
       {
         "id": 5,
         "description": "Get drunk at Violet Hour",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://hhrevolution.com/wp-content/uploads/2019/08/Violet-Hour-2-400x400.jpg",
+        "cost": 250
       },
       {
         "id": 6,
         "description": "Kayak the entire Chicago River",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://www.enjoyillinois.com/assets/Tourism-Operators/images/itims/_resampled/CroppedFocusedImageWzgwMCw0NTAsInkiLDld/24939_9837.jpg",
+        "cost": 45
       },
       {
         "id": 7,
         "description": "Commiserate with animals at Lincoln Park Zoo",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://secretchicago.com/wp-content/uploads/2022/05/Linvoln-Park-Zoo-1024x554.jpg",
+        "cost": 40
       },
       {
         "id": 8,
         "description": "Go to Millenium Park",
         "destination": "Chicago",
-        "image": "",
+        "image": "https://media.cntraveler.com/photos/53e2dd87dddaa35c30f61223/16:9/w_1600,c_limit/chicago-millenium-park-sculpture.jpg",
         "cost": 0
       },
       {
         "id": 9,
         "description": "Fly to NYC",
         "destination": "NYC",
-        "image": "",
-        "cost": 0
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAj3v7p5Xik7YH8I2raveMnMaLM_j-CrafQQ&usqp=CAU",
+        "cost": 575
       }
     ],
     "Miami": [
       {
-      "id": 1,
-      "description": "Fly to NYC",
-      "destination": "NYC",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.stgeorgeutah.com%2Fwp-content%2Fuploads%2F2018%2F05%2FNew-York-City-Getty-STGnews.jpg&f=1&nofb=1&ipt=36ab59b45e0ebb0b77020471ecaa94189fd805bf11624589b4cdc9ac226da046&ipo=images",
-      "cost": 150
+        "id": 1,
+        "description": "Fly to NYC",
+        "destination": "NYC",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.stgeorgeutah.com%2Fwp-content%2Fuploads%2F2018%2F05%2FNew-York-City-Getty-STGnews.jpg&f=1&nofb=1&ipt=36ab59b45e0ebb0b77020471ecaa94189fd805bf11624589b4cdc9ac226da046&ipo=images",
+        "cost": 150
       },
       {
         "id": 2,
@@ -144,7 +144,7 @@
         "destination": "Charlotte",
         "image": "",
         "cost": 0
-      }, 
+      },
       {
         "id": 3,
         "description": "Fly to New Orleans",
@@ -395,57 +395,57 @@
         "id": 1,
         "description": "Fly to Chicago",
         "destination": "Chicago",
-        "image": "",
-        "cost": 0
+        "image": "https://static.independent.co.uk/2023/03/14/09/Chicago-1.png",
+        "cost": 250
       },
       {
         "id": 2,
         "description": "Fly to New Orleans",
         "destination": "New Orleans",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ChrisLitherlandBourbonSt.jpg/600px-ChrisLitherlandBourbonSt.jpg",
+        "cost": 485
       },
       {
         "id": 3,
         "description": "Fly to NYC",
         "destination": "NYC",
-        "image": "",
-        "cost": 0
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/1200px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg",
+        "cost": 645
       },
       {
         "id": 4,
         "description": "Get drunk at Anheuser-Busch brewery",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://cdn.britannica.com/08/128608-050-A3B4F76B/brewery-Anheuser-Busch-St-Louis-Missouri.jpg?w=400&h=300&c=crop",
+        "cost": 50
       },
       {
         "id": 5,
         "description": "Attend a concert at the St. Louis Symphony Orchestra",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://eventective-media.azureedge.net/2573072_lg.jpg",
+        "cost": 125
       },
       {
         "id": 6,
         "description": "Visit the Gateway Arch",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2016/12/1024px-st_louis_night.jpg",
+        "cost": 45
       },
       {
         "id": 7,
         "description": "Cry in your hotel room at the Rivery City Casino Hotel after losing your life savings",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/22423288.jpg?k=c7d239864b1924edf28e37c158f5092917c42c2a9b839042198e0001596e88c1&o=&hp=1",
+        "cost": 3000
       },
       {
         "id": 9,
         "description": "Visit the Chatlillon-DeMenil Mansion",
         "destination": "Saint Louis",
-        "image": "",
-        "cost": 0
+        "image": "https://images.squarespace-cdn.com/content/v1/574f44eaf8baf35e5da0c183/1570128637214-C01OQJOLF2EK9RSBJY46/Demenil+Exterior.jpg?format=750w",
+        "cost": 25
       }
     ],
     "New Orleans": [
@@ -913,6 +913,6 @@
         }
       ],
       "id": 2
-    }
+    },
   ]
 }
