@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# BYOQLC: Build Your Own Quarter Life Crisis
+A tool for navigating your quarter life crisis with close to one-hundred activities and eleven cities to choose from. The travel recommendation website nobody asked for!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## User Experience:
+Create your own profile with your name, profile picture url, and selected quarter life crisis level. Select activities with a provided budget from eleven different cities across the USA. View your current quarter life crisis activities in a cart page. View your summary when finished and other users' quarter life crisis. 
 
-## Available Scripts
+## Quick-Start Guide:
+1. clone repository onto your local machine
+2. cd into directory on your terminal
+3. run `json-server --watch db.json` 
+4. run `npm start` to view the website
 
-In the project directory, you can run:
+## Features:
+1. Components:
+    - App
+        - Activities
+            - Search
+            - ActivityCard
+        - Cart
+        - Login
+        - Finish
+            - FinishCard
+        - Nav
+2. Client-Side Routes:
+    1. Login
+    2. Activities
+    3. Cart
+    4. Finish
+3. API made-from-scratch with resources:
+    - Activities divided by Location
+    - User data 
+4. All user input and activity is **fully persisting**!
+    - Refresh from any route and continue where you left off
 
-### `npm start`
+## Challenges:
+- creative work 
+- CSS and styling
+- routing and persisting
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Next-Steps:
+- pie-chart graphic showing percentage of activites spent in what cities
+- detailed description on activity cards (shown on back?)
+- hover box showing current wallet (maybe whole nav should be floating?)
+- still images on activities card show 10 second gif on hover
+- game design improvements:
+    - activities in cities change upon subsequent visits
+    - achievements based on activity selection on finish (i.e. went to all bar activities)
+    - adding time metric
+- fix routing to prevent breaking if user manually changes route on brower url
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Thank You For Viewing Our Project
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+--Jessica Giraldo</br>
+--Megan Harrison</br>
+--Francesco Wai

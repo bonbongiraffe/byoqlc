@@ -1,6 +1,6 @@
 import { Switch, Route, useHistory } from "react-router-dom"; 
 import { useState, useEffect } from "react"; 
-// import './App.css';
+import byoqlcLogo from "./image/byoqlcLogo.png"
 
 //components
 import Nav from "./Nav";
@@ -14,7 +14,7 @@ const url =  "http://localhost:3000"
 function App() {
   const history = useHistory()
   const [ activities, setActivities ] = useState({})
-  const [ user, setUser ] = useState({activities:[]})
+  const [ user, setUser ] = useState({activities:[], image:""})
 
   //fetch activities
   useEffect(()=>{
@@ -32,7 +32,7 @@ function App() {
       })
   },[])
 
-  //
+  //on submit qlc, change nav
   const handleFinish = () => {
     fetch(`${url}/users/${user.id}`,{
       method: "PATCH",
@@ -43,6 +43,7 @@ function App() {
       .then( updatedUser => setUser(updatedUser))
   }
 
+  //on finish screen, start new profile and redirect to login
   const handleRestart = () => {
     fetch(`${url}/users/${user.id}`,{
       method: "PATCH",
@@ -71,12 +72,12 @@ function App() {
     }
   }
 
-  console.log(user)
   return (
     <div className="App">
       <header className="title">
-        <h1>BYOQLC</h1>
-        <h3>Build Your Own Quarter Life Crisis</h3>
+        {/* <h1>BYOQLC</h1>
+        <h3>Build Your Own Quarter Life Crisis</h3> */}
+        <img className= "logo-img" src={byoqlcLogo} />
       </header>
       <Nav user={user} handleFinish={handleFinish}/> 
       <Switch>
@@ -90,6 +91,10 @@ function App() {
           <Finish user={user} activities={user.activities} handleRestart={handleRestart}></Finish>
         </Route>
         <Route path="/login">
+          <Login setUser={setUser}/>
+        </Route>
+        {/* need to redirect user from home page below vv */}
+        <Route exact path="/">
           <Login setUser={setUser}/>
         </Route>
       </Switch>

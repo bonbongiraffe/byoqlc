@@ -2,28 +2,48 @@
   text-align: center;
   font-size: 20px;
   font-family:'Courier New', Courier, monospace;
-  background: #404040;
+  background: #292828;
   color: yellow;
-  border-bottom: solid yellow;
-  border-top: solid yellow;
+}
+
+.logo-img {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: -20px;
+  width: 50%;
+  padding-top: 25px;
+  
 }
 
 nav {
   display: flex;
+  gap: 10px;
   justify-content: center;
   font-family:'Courier New', Courier, monospace;
-  background: #404040;
+  background: #292828;
   color: yellow;
+  align-items: center;
+}
+
+nav button{
+  height: 30px;
 }
 
 a {
   color: yellow;
 }
 
+a:hover {
+  color: red;
+}
+
 .activities-header {
   display: flex;
+  gap: 20px;
   background: yellow;
   justify-content: center;
+  align-items: center;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -32,6 +52,18 @@ a {
   font-family:'Courier New', Courier, monospace;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.flight-card {
+  display: flex;
+  gap: 30px;
+  background-color: lightblue;
+  border: dashed #808080;
+}
+
+.flight-card img {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .cart-card {
@@ -48,22 +80,27 @@ a {
 
 .login {
   font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
   line-height: 30px;
-  background: #808080;
+  background-color: #292828;
   color: yellow;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 25em;
 }
 
-.login label {
-  display: block;
+.login form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.login button {
-  display: block;
+.login img {
+  width: 100px;
+  height: 100px;
 }
 
 input[type="range"] {
@@ -76,6 +113,13 @@ input[type="range"] {
   font-family:'Courier New', Courier, monospace;
 }
 
+.user-finish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .finish h1 {
   background: yellow;
   text-align: center;
@@ -84,6 +128,7 @@ input[type="range"] {
 .finish-card {
   border: dashed yellow;
   display: flex;
+  gap: 20px;
 }
 
 body {
@@ -93,6 +138,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #292828;
 }
 
 code {
@@ -107,6 +153,10 @@ code {
   background: yellow;
 }
 
+.activity-card:hover {
+  background: red;
+}
+
 .activity-card img {
   max-width: 200px;
   max-height: 200px;
@@ -118,14 +168,6 @@ code {
   }
 }
 
-/* datalist {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  writing-mode: vertical-lr;
-  width: 200px;
-} */
-
 option {
   padding: 0;
 }
@@ -135,3 +177,23 @@ input[type="range"] {
   margin: 0;
 }
 
+button {
+  background-color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.profile-picture {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.siren-container {
+  display: flex;
+  gap: 10px;
+}

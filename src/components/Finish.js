@@ -19,11 +19,13 @@ function Finish({ user, activities, handleRestart }){
     return(
         <div className="finish">
             <h1>{user.name}'s Quarter Life Crisis</h1>
-            <ul className="user-finish">
-                {renderedActivities}
-                <li>With ${user.wallet} remaining!</li>
-            </ul>
-            <button onClick={() => handleRestart()}>New Quarter Life Crisis!</button>
+            <div className="user-finish">
+                <ul>
+                    {renderedActivities}
+                    <li>With ${user.wallet} remaining!</li>
+                </ul>
+                <button onClick={() => handleRestart()}>New Quarter Life Crisis!</button>
+            </div>
             <h1>Other Users' Quarter Life Crises</h1>
             <div className="other-qlc">
                 {renderedUsers}
